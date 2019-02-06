@@ -1,0 +1,3424 @@
+--- ATTENTION : CONSERVEZ CETTE LICENCE SI VOUS REDISTRIBUEZ CE FICHIER ---
+License ABU
+-=-=-=-=-=-
+Version 1.1, Aout 1999
+
+Copyright (C) 1999 Association de Bibliophiles Universels
+   http://abu.cnam.fr/
+   abu@cnam.fr
+
+La base de textes de l'Association des Bibliophiles Universels (ABU)
+est une oeuvre de compilation, elle peut être copiée, diffusée et
+modifiée dans les conditions suivantes :
+
+1.  Toute copie à des fins privées, à des fins d'illustration de l'enseignement
+    ou de recherche scientifique est autorisée.
+
+2.  Toute diffusion ou inclusion dans une autre oeuvre doit
+
+     a) soit inclure la presente licence s'appliquant a l'ensemble de la
+        diffusion ou de l'oeuvre dérivee.
+
+     b) soit permettre aux bénéficiaires de cette diffusion ou de cette
+        oeuvre dérivée d'en extraire facilement et gratuitement une version
+        numérisée de chaque texte inclu, muni de la présente licence.  Cette
+        possibilité doit être mentionnée explicitement et de façon claire,
+        ainsi que le fait que la présente notice s'applique aux documents
+        extraits.
+
+     c) permettre aux bénéficiaires de cette diffusion ou de cette
+        oeuvre dérivée d'en extraire facilement et gratuitement la version
+        numérisée originale, munie le cas échéant des améliorations visées au
+        paragraphe 6, si elles sont présentent dans la diffusion ou la nouvelle
+        oeuvre. Cette possibilité doit être mentionnée explicitement et de
+        façon claire, ainsi que le fait que la présente notice s'applique aux
+        documents extraits.
+
+   Dans tous les autres cas, la présente licence sera réputée s'appliquer
+   à l'ensemble de la diffusion ou de l'oeuvre dérivée.
+
+
+3. L'en-tête qui accompagne chaque fichier doit être intégralement 
+   conservée au sein de la copie.
+
+4. La mention du producteur original doit être conservée, ainsi
+   que celle des contributeurs ultérieurs.
+
+5. Toute modification ultérieure, par correction d'erreurs,
+   additions de variantes, mise en forme dans un autre format, ou autre,
+   doit être indiquée.  L'indication des diverses contributions devra être
+   aussi précise que possible, et datée.
+
+6. Ce copyright s'applique obligatoirement à toute amélioration
+   par simple correction d'erreurs ou d'oublis mineurs (orthographe,
+   phrase manquante, ...), c'est-à-dire ne correspondant pas à
+   l'adjonction d'une autre variante connue du texte, qui devra donc
+   comporter la présente notice.
+
+----------------------- FIN DE LA LICENCE ABU --------------------------------
+
+--- ATTENTION : CONSERVEZ CET EN-TETE SI VOUS REDISTRIBUEZ CE FICHIER ---
+
+<IDENT domjuan>
+<IDENT_AUTEURS moliere>
+<IDENT_COPISTES garandg>
+<ARCHIVE ftp://ota.ox.ac.uk>
+<VERSION 2>
+<DROITS 0>
+<TITRE Dom Juan, ou le festin de pierre>
+<GENRE vers>
+<AUTEUR Molière>
+<COPISTE >
+<NOTESPROD>
+  La version 2 est mise à la norme ABU par Pierre Cubaud (cubaud@cnam.fr)
+  d'après le fichier extrait de la Oxford Text Archive ftp://ota.ox.ac.uk
+</NOTESPROD>
+----------------------- FIN DE L'EN-TETE --------------------------------
+
+------------------------- DEBUT DU FICHIER domjuan2 --------------------------------
+
+ACTE I
+------
+
+
+SCÈNE PREMIERE - SGANARELLE, GUSMAN.
+
+
+SGANARELLE tenant une Tabatiere.
+Quoy que puisse dire Aristote, et toute la Philosophie,
+il n'est rien d'égal au Tabac, c'est la passion des honnestes
+gens ; et qui vit sans Tabac, n'est pas digne de vivre ; non
+seulement il réjoüit, et purge les cerveaux humains ; mais
+encore il instruit les ames à la vertu, et l'on apprend avec
+luy à devenir honneste homme. Ne voyez-vous pas bien
+dés qu'on en prend, de quelle maniere obligeante on en use
+avec tout le monde, et comme on est ravy d'en donner, à
+droit et à gauche, par tout où l'on se trouve ? On n'attend
+pas mesme qu'on en demande, et l'on court au devant du
+soûhait des gens : tant il est vray, que le Tabac inspire des
+sentimens d'honneur, et de vertu, à tous ceux qui en
+prennent. Mais c'est assez de cette matiere, reprenons un
+peu nostre discours. Si bien donc, cher Gusman, que Done
+Elvire ta Maistresse, surprise de nostre départ, s'est mise
+en Campagne aprés nous ; et son coeur, que mon Maistre a
+sceu toucher trop fortement, n'a pû vivre, dis-tu, sans le
+venir chercher icy ? veux-tu qu'entre-nous je te dise ma
+pensée ; j'ay peur qu'elle ne soit mal payée de son amour,
+que son voyage en cette Ville produise peu de fruit, et que
+vous eussiez autant gagné à ne bouger de là.
+
+GUSMAN.
+Et la raison encore, dy moy, je te prie, Sganarelle, qui
+peut t'inspirer une peur d'un si mauvais augure ? ton
+maistre t'a-t-il ouvert son coeur là-dessus, et t'a t'il dit qu'il
+eust pour nous quelque froideur qui l'ait obligé à partir ?
+
+SGANARELLE.
+Non pas, mais, à veuë de païs, je connois à peu prés le
+train des choses, et sans qu'il m'ait encore rien dit, je
+gagerois presque que l'affaire va-là. Je pourrois peut-estre
+me tromper, mais enfin, sur de tels sujets, l'experience m'a
+pû donner quelques lumieres.
+
+GUSMAN.
+Quoy, ce départ si peu préveu, seroit une infidelité de
+D. Juan ? il pourroit faire cette injure aux chastes feux de
+D. Elvire ?
+
+SGANARELLE.
+Non, c'est qu'il est jeune encore, et qu'il n'a pas le courage.
+
+GUSMAN.
+Un homme de sa qualité feroit une action si lâche ?
+
+SGANARELLE.
+Eh oüy ; sa qualité ! la raison en est belle, et c'est par là
+qu'il s'empescheroit des choses.
+
+GUSMAN.
+Mais les saints noeuds du mariage le tiennent engagé.
+
+SGANARELLE.
+Eh ! mon pauvre Gusman, mon amy, tu ne sçais pas
+encore, croy moy, quel homme est D. Juan.
+
+GUSMAN.
+Je ne sçay pas de vray quel homme il peut estre, s'il
+faut qu'il nous ait fait cette perfidie ; et je ne comprends
+point, comme aprés tant d'amour, et tant d'impatience
+témoignée, tant d'hommages pressants, de voeux, de soûpirs,
+et de larmes ; tant de lettres passionnées, de protestations
+ardentes, et de sermens reïterez ; tant de transports,
+enfin, et tant d'emportemens qu'il a fait paroître,
+jusqu'à forcer dans sa passion l'obstacle sacré d'un Convent,
+pour mettre D. Elvire en sa puissance ; je ne comprends
+pas, dis-je, comme aprés tout cela il auroit le coeur
+de pouvoir manquer à sa parole.
+
+SGANARELLE.
+Je n'ay pas grande peine à le comprendre moy, et si tu
+connoissois le pelerin, tu trouverois la chose assez facile
+pour luy. Je ne dis pas qu'il ait changé de sentimens pour
+D. Elvire, je n'en ay point de certitude encore ; tu sçais
+que par son ordre je partis avant luy, et depuis son arrivée
+il ne m'a point entretenu, mais par precaution, je t'apprens
+(inter nos) que tu vois en D. Juan mon Maistre, le
+plus grand scelerat que la terre ait jamais porté, un enragé,
+un chien, un Diable, un Turc, un Heretique, qui ne
+croit ny Ciel, ny Enfer, ny loup-garou, qui passe cette vie
+en veritable beste-brute, un pourceau d'Epicure, un vray
+Sardanapale, qui ferme l'oreille à toutes les remontrances
+[chrestiennes] qu'on luy peut faire, et traite de billevezées
+tout ce que nous croyons. Tu me dis qu'il a épousé ta
+Maîtresse, croy qu'il auroit plus fait pour sa passion, et
+qu'avec elle il auroit encore épousé toy, son chien, et son
+chat. Un Mariage ne luy coûte rien à contracter, il ne se
+sert point d'autres pieges pour attraper les belles, et c'est
+un épouseur à toutes mains, Dame, Demoiselle, Bourgeoise,
+Païsane, il ne trouve rien de trop chaud, ny de trop
+froid pour luy ; et si je te disois le nom de toutes celles qu'il
+a épousées en divers lieux, ce seroit un chapitre à durer
+jusques au soir. Tu demeures surpris, et changes de couleur
+à ce discours ; ce n'est-là qu'une ébauche du personnage,
+et pour en achever le portrait, il faudroit bien d'autres
+coups de pinceau, suffit qu'il faut que le courroux du Ciel
+l'accable quelque jour : qu'il me faudroit bien mieux
+d'estre au diable, que d'estre à luy, et qu'il me fait voir
+tant d'horreurs, que je souhaiterois qu'il fust déja je ne
+sçay où ; mais un grand Seigneur méchant homme est une
+terrible chose ; il faut que je luy sois fidele en dépit que
+j'en aye, la crainte en moy fait l'office du zele, bride mes
+sentimens, et me reduit d'applaudir bien souvent à ce que
+mon ame deteste. Le voila qui vient se promener dans ce
+Palais, separons-nous ; écoute, au moins, je t'ay fait cette
+confidence avec franchise, et cela m'est sorty un peu bien
+viste de la bouche ; mais s'il faloit qu'il en vinst quelque
+chose à ses oreilles, je dirois hautement que tu aurois
+menty.
+
+
+SCÈNE II - D. JUAN, SGANARELLE.
+
+
+D. JUAN.
+Quel homme te parloit là, il a bien de l'air ce me semble
+du bon Gusman de D. Elvire ?
+
+SGANARELLE.
+C'est quelque chose aussi à peu prés de cela.
+
+D. JUAN.
+Quoy, c'est luy ?
+
+SGANARELLE.
+Luy-mesme.
+
+D. JUAN.
+Et depuis quand est-il en cette Ville ?
+
+SGANARELLE.
+D'hier au soir.
+
+D. JUAN.
+Et quel sujet l'ameine ?
+
+SGANARELLE.
+Je crois que vous jugez assez ce qui le peut inquieter.
+
+D. JUAN.
+Nostre départ, sans doute ?
+
+SGANARELLE.
+Le bon homme en est tout mortifié, et m'en demandoit
+le sujet.
+
+D. JUAN.
+Et quelle réponse as-tu faite ?
+
+SGANARELLE.
+Que vous ne m'en aviez rien dit.
+
+D. JUAN.
+Mais encore, quelle est ta pensée là-dessus, que t'imagines-tu
+de cette affaire ?
+
+SGANARELLE.
+Moy, je croy sans vous faire tort, que vous avez quelque
+nouvel amour en teste.
+
+D. JUAN.
+Tu le crois ?
+
+SGANARELLE.
+Oüy.
+
+D. JUAN.
+Ma foy, tu ne te trompes pas, et je dois t'avoüer qu'un
+autre objet a chassé Elvire de ma pensée.
+
+SGANARELLE.
+Eh, mon Dieu, je sçay mon Dom Juan, sur le bout du
+doigt, et connois vostre coeur pour le plus grand coureur
+du monde, il se plaist à se promener de liens en liens, et
+n'aime guere à demeurer en place.
+
+D. JUAN.
+Et ne trouves-tu pas, dy moy, que j'ay raison d'en user
+de la sorte ?
+
+SGANARELLE.
+Eh, Monsieur.
+
+D. JUAN.
+Quoy ? parle.
+
+SGANARELLE.
+Assurement que vous avez raison, si vous le voulez, on
+ne peut pas aller là contre ; mais si vous ne le vouliez pas,
+ce seroit peut-estre une autre affaire.
+
+D. JUAN.
+Et bien, je te donne la liberté de parler, et de me dire
+tes sentimens.
+
+SGANARELLE.
+En ce cas, Monsieur, je vous diray franchement que je
+n'approuve point vostre methode, et que je trouve fort
+vilain d'aimer de tous costez comme vous faites.
+
+D. JUAN.
+Quoy ? tu veux qu'on se lie à demeurer au premier
+objet qui nous prend, qu'on renonce au monde pour luy,
+et qu'on n'ait plus d'yeux pour personne ? La belle chose
+de vouloir se picquer d'un faux honneur d'estre fidelle, de
+s'ensevelir pour toûjours dans une passion, et d'estre mort
+dés sa jeunesse, à toutes les autres beautez qui nous
+peuvent frapper les yeux : non, non, la constance n'est
+bonne que pour des ridicules, toutes les Belles ont droit
+de nous charmer, et l'avantage d'estre rencontrée la premiere,
+ne doit point dérober aux autres les justes pretentions
+qu'elles ont toutes sur nos coeurs. Pour moy, la beauté
+me ravit par tout où je la trouve ; et je cede facilement à
+cette douce violence, dont elle nous entraisne ; j'ay beau
+estre engagé, l'amour que j'ay pour une belle, n'engage
+point mon ame à faire injustice aux autres ; je conserve des
+yeux pour voir le merite de toutes, et rends à chacune les
+hommages, et les tributs où la nature nous oblige. Quoy
+qu'il en soit, je ne puis refuser mon coeur à tout ce que je
+voy d'aimable, et dés qu'un beau visage me le demande,
+si j'en avois dix mille, je les donnerois tous. Les inclinations
+naissantes aprés tout, ont des charmes inexplicables,
+et tout le plaisir de l'amour est dans le changement. On
+goûte une douceur extrême à reduire par cent hommages
+le coeur d'une jeune beauté, à voir de jour en jour les petits
+progrés qu'on y fait ; à combatre par des transports, par des
+larmes, et des soûpirs, l'innocente pudeur d'une ame, qui
+a peine à rendre les armes ; à forcer pied à pied toutes les
+petites resistances qu'elle nous oppose, à vaincre les scrupules
+dont elle se fait un honneur, et la mener doucement,
+où nous avons envie de la faire venir. Mais lors qu'on en
+est maistre une fois, il n'y a plus rien à dire, ny rien à
+souhaiter, tout le beau de la passion est finy, et nous nous
+endormons dans la tranquillité d'un tel amour, si quelque
+objet nouveau ne vient réveiller nos desirs, et presenter à
+nostre coeur les charmes attrayants d'une conqueste à
+faire. Enfin, il n'est rien de si doux, que de triompher de
+la resistance d'une belle personne ; et j'ay sur ce sujet
+l'ambition des Conquerants, qui volent perpetuellement de
+victoire en victoire, et ne peuvent se resoudre à borner
+leurs souhaits. Il n'est rien qui puisse arrester l'impetuosité
+de mes desirs, je me sens un coeur à aimer toute la
+terre ; et comme Alexandre, je souhaiterois qu'il y eust
+d'autres mondes, pour y pouvoir étendre mes conquestes
+amoureuses.
+
+SGANARELLE.
+Vertu de ma vie, comme vous debitez ; il semble que
+vous ayez appris cela par coeur, et vous parlez tout comme
+un Livre.
+
+D. JUAN.
+Qu'as-tu à dire là-dessus ?
+
+SGANARELLE.
+Ma foy, j'ay à dire... je ne sçay ; car vous tournez les
+choses d'une maniere, qu'il semble que vous avez raison,
+et cependant il est vray que vous ne l'avez pas. J'avois les
+plus belles pensées du monde, et vos discours m'ont
+broüillé tout cela ; laissez faire, une autre fois je mettray
+mes raisonnemens par écrit, pour disputer avec vous.
+
+D. JUAN.
+Tu feras bien.
+
+SGANARELLE.
+Mais, Monsieur, cela seroit-il de la permission que vous
+m'avez donnée, si je vous disois que je suis tant soit peu
+scandalisé de la vie que vous menez ?
+
+D. JUAN.
+Comment, quelle vie est-ce que je meine ?
+
+SGANARELLE.
+Fort bonne. Mais par exemple de vous voir tous les mois
+vous marier comme vous faites.
+
+D. JUAN.
+Y a-t-il rien de plus agreable ?
+
+SGANARELLE.
+Il est vray, je conçois que cela est fort agreable, et fort
+divertissant, et je m'en accommoderois assez moy, s'il n'y
+avoit point de mal, mais, Monsieur, se joüer ainsi d'un
+mystere sacré, et...
+
+D. JUAN.
+Va, va, c'est une affaire entre le Ciel et moy, et nous la
+démeslerons bien ensemble, sans que tu t'en mettes en
+peine.
+
+SGANARELLE.
+Ma foy, Monsieur, j'ay toûjours oüy dire que c'est
+une méchante raillerie que de se railler du Ciel, et que
+les libertins ne font jamais une bonne fin.
+
+D. JUAN.
+Hola, maistre sot, vous sçavez que je vous ay dit que je
+n'ayme pas les faiseurs de remontrances.
+
+SGANARELLE.
+Je ne parle pas aussi à vous, Dieu m'en garde ; vous
+sçavez ce que vous faites vous, et si vous ne croyez rien,
+vous avez vos raisons ; mais il y a de certains petits impertinents
+dans le monde, qui sont libertins sans sçavoir pourquoy,
+qui font les esprits forts, parce qu'ils croyent que cela
+leur sied bien ; et si j'avois un Maistre comme cela, je
+luy dirois nettement le regardant en face : Osez-vous bien
+ainsi vous joüer au Ciel, et ne tremblez-vous point de vous
+mocquer comme vous faites des choses les plus saintes ?
+C'est bien à vous petit ver de terre, petit mirmidon que
+vous estes, (je parle au Maistre que j'ay dit,) c'est bien à
+vous à vouloir vous mêler de tourner en raillerie, ce que
+tous les hommes reverent. Pensez-vous que pour estre de
+qualité, pour avoir une perruque blonde, et bien frisée, des
+plumes à vostre chapeau, un habit bien doré, et des rubans
+couleur de feu, (ce n'est pas à vous que je parle, c'est à
+l'autre ;) pensez-vous, dis je, que vous en soyez plus
+habile homme, que tout vous soit permis, et qu'on n'ose
+vous dire vos veritez ? Apprenez de moy, qui suis vostre
+Valet, que le Ciel punit tost ou tard les impies, qu'une
+méchante vie ameine une méchante mort, et que...
+
+D. JUAN.
+Paix.
+
+SGANARELLE.
+De quoy est-il question ?
+
+D. JUAN.
+Il est question de te dire, qu'une beauté me tient au
+coeur, et qu'entraîné par ses appas, je l'ay suivie jusqu'en
+cette Ville.
+
+SGANARELLE.
+Et ne craignez-vous rien, Monsieur, de la mort de ce
+Commandeur que vous tuastes il y a six mois ?
+
+D. JUAN.
+Et pourquoy craindre, ne l'ay-je pas bien tué ?
+
+SGANARELLE.
+Fort bien, le mieux du monde, et il auroit tort de se
+plaindre.
+
+D. JUAN.
+J'ay eu ma grace de cette affaire.
+
+SGANARELLE.
+Oüy, mais cette grace n'éteint pas peut-estre le ressentiment
+des parens et des amis, et...
+
+D. JUAN.
+Ah ! n'allons point songer au mal qui nous peut arriver,
+et songeons seulement à ce qui nous peut donner du plaisir.
+La personne dont je te parle, est une jeune Fiancée, la plus
+agreable du monde, qui a esté conduite icy par celuy
+mesme qu'elle y vient épouser ; et le hazard me fit voir ce
+couple d'Amans, trois ou quatre jours avant leur voyage.
+Jamais je n'ay veu deux personnes estre si contens l'un de
+l'autre, et faire éclater plus d'amour. La tendresse visible
+de leurs mutuelles ardeurs me donna de l'émotion ; j'en
+fus frappé au coeur, et mon amour commença par la jalousie.
+Oüy, je ne pus souffrir d'abord de les voir si bien
+ensemble, le dépit allarma mes desirs, et je me figuray un
+plaisir extrême, à pouvoir troubler leur intelligence, et
+rompre cét attachement, dont la delicatesse de mon coeur
+se tenoit offensée ; mais jusques icy tous mes efforts ont
+esté inutiles, et j'ay recours au dernier remede. Cét époux
+pretendu doit aujourd'huy regaler sa Maistresse d'une
+promenade sur mer ; sans t'en avoir rien dit, toutes choses
+sont preparées pour satisfaire mon amour, et j'ay une
+petite Barque, et des gens, avec quoy fort facilement je
+pretends enlever la Belle.
+
+SGANARELLE.
+Ha ! Monsieur...
+
+D. JUAN.
+Hen ?
+
+SGANARELLE.
+C'est fort bien fait à vous, et vous le prenez comme il
+faut, il n'est rien tel en ce monde, que de se contenter.
+
+D. JUAN.
+Prepare-toy donc à venir avec moy, et prend soin toymesme
+d'apporter toutes mes armes, afin que... (
+Il apperçoit
+D. Elvire.) Ah ! rencontre fascheuse, traistre, tu ne
+m'avois pas dit qu'elle estoit icy elle-mesme.
+
+SGANARELLE.
+Monsieur, vous ne me l'avez pas demandé.
+
+D. JUAN.
+Est-elle folle de n'avoir pas changé d'habit, et de venir
+en ce lieu-cy, avec son équipage de campagne ?
+
+SCÈNE III.
+
+D. ELVIRE, D. JUAN, SGANARELLE.
+
+D. ELVIRE.
+Me ferez-vous la grace, D. Juan, de vouloir bien me
+reconnoistre, et puis-je au moins esperer que vous daigniez
+tourner le visage de ce costé ?
+
+D. JUAN.
+Madame, je vous avoüe que je suis surpris, et que je ne
+vous attendois pas icy.
+
+D. ELVIRE.
+Oüy, je voy bien que vous ne m'y attendiez pas, et vous
+estes surpris à la verité, mais tout autrement que je ne
+l'esperois, et la maniere dont vous le paroissez, me persuade
+pleinement ce que je refusois de croire. J'admire ma
+simplicité, et la foiblesse de mon coeur, à douter d'une trahison,
+que tant d'apparences me confirmoient. J'ay esté
+assez bonne, je le confesse, ou plûtost assez sotte, pour me
+vouloir tromper moy-mesme, et travailler à démentir mes
+yeux et mon jugement. J'ay cherché des raisons, pour
+excuser à ma tendresse le relaschement d'amitié qu'elle
+voyoit en vous ; et je me suis forgé exprés cent sujets legitimes
+d'un départ si precipité, pour vous justifier du crime,
+dont ma raison vous accusoit. Mes justes soupçons chaque
+jour avoient beau me parler, j'en rejettois la voix qui vous
+rendoit criminel à mes yeux, et j'écoutois avec plaisir mille
+chimeres ridicules, qui vous peignoient innocent à mon
+coeur ; mais enfin cét abord ne me permet plus de douter,
+et le coup d'oeil qui m'a receuë, m'apprend bien plus de
+choses, que je ne voudrois en sçavoir. Je seray bien aise
+pourtant d'oüir de vostre bouche les raisons de vostre départ.
+Parlez, D. Juan, je vous prie ; et voyons de quel air
+vous sçaurez vous justifier.
+
+D. JUAN.
+Madame, voila Sganarelle, qui sçait pourquoy je suis
+party.
+
+SGANARELLE.
+Moy, Monsieur, je n'en sçay rien, s'il vous plaist.
+
+D. ELVIRE.
+Hé bien, Sganarelle, parlez, il n'importe de quelle
+bouche j'entende ses raisons.
+
+D. JUAN faisant signe d'approcher à Sganarelle.
+Allons, parle donc à Madame.
+
+SGANARELLE.
+Que voulez-vous que je dise ?
+
+D. ELVIRE.
+Approchez, puis qu'on le veut ainsi, et me dites un peu
+les causes d'un départ si prompt.
+
+D. JUAN.
+Tu ne répondras pas ?
+
+SGANARELLE.
+Je n'ay rien à répondre, vous vous moquez de vostre
+Serviteur.
+
+D. JUAN.
+Veux-tu répondre, te dis-je ?
+
+SGANARELLE.
+Madame...
+
+D. ELVIRE.
+Quoy ?
+
+SGANARELLE se retournant vers son Maistre.
+Monsieur...
+
+D. JUAN en le menaçant.
+Si...
+
+SGANARELLE.
+Madame, les Conquerants, Alexandre, et les autres
+Mondes sont cause de nostre départ ; voila, Monsieur, tout
+ce que je puis dire.
+
+D. ELVIRE.
+Vous plaist-il, D. Juan, nous éclaircir ces beaux mysteres ?
+
+D. JUAN.
+Madame, à vous dire la verité...
+
+D. ELVIRE.
+Ah, que vous sçavez mal vous défendre pour un homme
+de Cour, et qui doit estre accoûtumé à ces sortes de choses !
+J'ay pitié de vous voir la confusion que vous avez. Que ne
+vous armez-vous le front d'une noble effronterie ? que ne
+me jurez-vous que vous estes toûjours dans les mesmes
+sentimens pour moy, que vous m'aimez toûjours avec une
+ardeur sans égale, et que rien n'est capable de vous détacher
+de moy que la mort ! que ne me dites-vous que des
+affaires de la derniere consequence vous ont obligé à
+partir sans m'en donner avis, qu'il faut que malgré vous
+vous demeuriez icy quelque temps, et que je n'ay qu'à
+m'en retourner d'où je viens, assurée que vous suivrez
+mes pas le plûtost qu'il vous sera possible : Qu'il est certain
+que vous brûlez de me rejoindre, et qu'éloigné de moy,
+vous souffrez ce que souffre un corps qui est separé de son
+ame. Voila comme il faut vous défendre, et non pas estre
+interdit comme vous estes.
+
+D. JUAN.
+Je vous avoüe, Madame, que je n'ay point le talent de
+dissimuler, et que je porte un coeur sincere. Je ne vous
+diray point que je suis toûjours dans les mesmes sentimens
+pour vous, et que je brûle de vous rejoindre, puis qu'enfin
+il est assuré que je ne suis party que pour vous fuir ; non
+point par les raisons que vous pouvez vous figurer, mais
+par un pur motif de conscience, et pour ne croire pas
+qu'avec vous davantage je puisse vivre sans peché. Il m'est
+venu des scrupules, Madame, et j'ay ouvert les yeux de
+l'ame sur ce que je faisois. J'ay fait reflexion que pour vous
+épouser, je vous ay dérobée à la closture d'un Convent,
+que vous avez rompu des voeux, qui vous engageoient
+autre part, et que le Ciel est fort jaloux de ces sortes de
+choses. Le repentir m'a pris, et j'ay craint le couroux
+celeste. J'ay cru que nostre mariage n'estoit qu'un adultere
+déguisé, qu'il nous attireroit quelque disgrace d'enhaut,
+et qu'enfin je devois tascher de vous oublier, et vous
+donner moyen de retourner à vos premieres chaisnes. Voudriez-vous,
+Madame, vous opposer à une si sainte pensée,
+et que j'allasse, en vous retenant, me mettre le Ciel sur les
+bras, que par...
+
+D. ELVIRE.
+Ah ! scelerat, c'est maintenant que je te connois tout
+entier, et pour mon malheur, je te connois lors qu'il n'en
+est plus temps, et qu'une telle connoissance ne peut plus
+me servir qu'à me desesperer ; mais sçache que ton crime
+ne demeurera pas impuny ; et que le mesme Ciel dont tu
+te joües, me sçaura vanger de ta perfidie.
+
+D. JUAN.
+Sganarelle, le Ciel !
+
+SGANARELLE.
+Vraiment oüy, nous nous moquons bien de cela, nous
+autres.
+
+D. JUAN.
+Madame...
+
+D. ELVIRE.
+Il suffit, je n'en veux pas oüir davantage, et je m'accuse
+mesme d'en avoir trop entendu. C'est une lâcheté que de
+se faire expliquer trop sa honte ; et sur de tels sujets, un
+noble coeur au premier mot doit prendre son party. N'attends
+pas que j'éclate icy en reproches et en injures, non,
+non, je n'ay point un couroux à exhaler en paroles vaines,
+et toute sa chaleur se reserve pour sa vengeance. Je te le
+dis encore, le Ciel te punira, perfide, de l'outrage que tu
+me fais, et si le Ciel n'a rien que tu puisses apprehender,
+apprehende du moins la colere d'une Femme offencée.
+
+SGANARELLE.
+Si le remords le pouvoit prendre.
+
+D. JUAN aprés une petite reflexion.
+Allons songer à l'execution de nostre entreprise amoureuse.
+
+SGANARELLE.
+Ah, quel abominable Maître me vois-je obligé de servir !
+
+
+ACTE II
+-------
+
+
+SCÈNE PREMIERE - CHARLOTTE, PIERROT.
+
+
+CHARLOTE.
+Nostre-dinse, Piarrot, tu t'es trouvé-là bien à point.
+
+PIERROT.
+Parquienne, il ne s'en est pas falu l'époisseur d'une
+éplinque, qu'ils ne se sayant nayez tous deux.
+
+CHARLOTE.
+C'est donc le coup de vent da matin qui les avoit ranvarsez
+dans la mar.
+
+PIERROT.
+Aga guien, Charlote, je m'en vas te conter tout fin
+drait comme cela est venu : car, comme dit l'autre, je les
+ay le premier avisez, avisez le premier je les ay. Enfin
+donc, j'estions sur le bord de la mar, moy et le gros Lucas,
+et je nous amusions à batifoler avec des mottes de tarre
+que je nous jesquions à la teste : car comme tu sçais bian,
+le gros Lucas aime à batifoler, et moy par fouas je batifole
+itou. En batifolant donc, pisque batifoler y a, j'ay apparceu
+de tout loin queuque chose qui groüilloit dans gliau,
+et qui venoit comme envars nou par secousse. Je voyois
+cela fixiblement, et pis tout d'un coup je voyois que je ne
+voyois plus rien. Eh, Lucas, çay-je fait, je pense que ula des
+hommes qui nageant là-bas. Voire, ce ma til fait, t'as esté
+au trépassement d'un chat, tas la veuë trouble. Pal sanquienne,
+çay je fait, je n'ay point la veuë trouble, ce sont
+des hommes. Point du tout, ce ma til fait, t'as la barluë.
+Veux tu gager, çay je fait, que je nay point la barluë, çay
+je fait, et que sont deux hommes, çay je fait, qui nageant
+droit icy, çay je fait. Morquenne, ce ma til fait, je gage que
+non. O çà, çay je fait, veux tu gager dix sols que si ? Je le
+veux bian, ce ma til fait, et pour te montrer, ula argent su
+jeu, ce ma til fait. Moy, je n'ay point esté ny fou, ny estourdy,
+j'ay bravement bouté à tarre quatre pieces tapées,
+et cinq sols en doubles, jergniguenne aussi hardiment que
+si j'avois avalé un varre de vin : car je ses hazardeux moy,
+et je vas à la debandade. Je sçavois bian ce que je faisois
+pourtant, queuque gniais ! Enfin donc, je n'avons pas
+putost eü gagé que javon veu les deux hommes tout à
+plain qui nous faisiant signe de les aller querir, et moy de
+tirer auparavant les enjeux. Allons, Lucas, çay je dit, tu
+vois bian qu'ils nous appellont : allons viste à leu secours.
+Non, ce ma til dit, ils mont fait pardre. O donc tanquia,
+qua la par fin pour le faire court, je l'ay tant sarmonné, que
+je nous sommes boutez dans une barque, et pis j'avons
+tant fait cahin, caha, que je les avons tirez de gliau, et pis
+je les avons menez cheux nous auprés du feu, et pis ils se
+sant depoüillez tous nuds pour se secher, et pis il y en est
+venu encor deux de la mesme bande qui saquiant sauvez
+tout seuls, et pis Maturine est arrivée là à qui l'en a fait
+les doux yeux, ula justement, Charlote, comme tout ça
+s'est fait.
+
+CHARLOTE.
+Tu ne m'as pas dit, Piarrot, qu'il y en a un qu'est bien
+pû mieux fait que les autres.
+
+PIERROT.
+Oüy, c'est le Maître, il faut que ce soit queuque gros
+gros Monsieur, car il a du dor à son habit tout de pis le
+haut jusqu'en bas, et ceux qui le servont sont des Monsieux
+eux-mesme, et stapandant, tout gros Monsieur qu'il est,
+il seroit par ma fique nayé si je n'aviomme esté là.
+
+CHARLOTE.
+Ardez un peu.
+
+PIERROT.
+O Parquenne, sans nous, il en avoit pour sa maine de
+féves.
+
+CHARLOTE.
+Est-il encore cheux toy tout nu, Piarrot ?
+
+PIERROT.
+Nannain, ils l'avont r'habillé tout devant nous. Mon
+quieu, je n'en avois jamais veu s'habiller, que d'histoires
+et d'angigorniaux boutont ces Messieus-là les Courtisans,
+je me pardrois là dedans pour moy, et j'estois tout ebobi
+de voir ça. Quien, Charlote, ils avont des cheveux qui ne
+tenont point à leu teste, et ils boutont ça aprés tout comme
+un gros bonnet de filace. Ils ant des chemises qui ant des
+manches où j'entrerions tout brandis toy et moy. En glieu
+d'haut de chausse, ils portont un garderobe aussi large que
+d'icy à Pasque, en glieu de pourpoint, de petites brassieres,
+qui ne leu venont pas usqu'au brichet, et en glieu
+de rabas un grand mouchoir de cou à riziau aveuc quatre
+grosses houpes de linge qui leu pendont sur l'estomaque.
+Ils avont itou d'autres petits rabats au bout des bras, et de
+grands entonnois de passement aux jambes, et parmy tout
+ça tant de rubans, tant de rubans, que c'est une vraye piquié.
+Ignia pas jusqu'aux souliers qui n'en soiont farcis
+tout de pis un bout jusqu'à l'autre, et ils sont faits d'eune
+façon que je me romprois le cou aveuc.
+
+CHARLOTE.
+Par ma fy, Piarrot, il faut que j'aille voir un peu ça.
+
+PIERROT.
+O acoute un peu auparavant, Charlote, j'ay queuque
+autre chose à te dire, moy.
+
+CHARLOTE.
+Et bian, dy, qu'est-ce que c'est ?
+
+PIERROT.
+Vois-tu, Charlote, il faut, comme dit l'autre, que je débonde
+mon coeur. Je taime, tu le sçais bian, et je somme
+pour estre mariez ensemble, mais marquenne, je ne suis
+point satisfait de toy.
+
+CHARLOTE.
+Quement ? qu'est-ce que c'est donc qu'iglia ?
+
+PIERROT.
+Iglia que tu me chagraignes l'esprit franchement.
+
+CHARLOTE.
+Et quement donc ?
+
+PIERROT.
+Testiguienne, tu ne maimes point.
+
+CHARLOTE.
+Ah, ah, n'est-ce que ça ?
+
+PIERROT.
+Oüy, ce n'est que ça, et c'est bian assez.
+
+CHARLOTE.
+Mon quieu, Piarrot, tu me viens toujou dire la mesme
+chose.
+
+PIERROT.
+Je te dis toujou la mesme chose, parce que c'est toujou
+la mesme chose, et si ce n'estoit pas toujou la mesme chose,
+je ne te dirois pas toujou la mesme chose.
+
+CHARLOTE.
+Mais, qu'est-ce qu'il te faut ? que veux-tu ?
+
+PIERROT.
+Jerniquenne, je veux que tu m'aimes.
+
+CHARLOTE.
+Est-ce que je ne taime pas ?
+
+PIERROT.
+Non, tu ne maimes pas, et si je fais tout ce que je pis
+pour ça. Je tachete, sans reproche, des rubans à tous les
+Marciers qui passont, je me romps le cou à taller denicher
+des marles, je fais joüer pour toy les Vielleux quand ce
+vient ta feste, et tout ça comme si je me frapois la teste
+contre un mur. Vois-tu, ça n'est ny biau ny honneste de
+naimer pas les gens qui nous aimont.
+
+CHARLOTE.
+Mais, mon guieu, je taime aussi.
+
+PIERROT.
+Oüy, tu maimes dune belle deguaine.
+
+CHARLOTE.
+Quement veux tu donc qu'on fasse ?
+
+PIERROT.
+Je veux que l'en fasse comme l'en fait quand l'en aime
+comme il faut.
+
+CHARLOTE.
+Ne taimay-je pas aussi comme il faut ?
+
+PIERROT.
+Non, quand ça est, ça se void, et l'en fait mille petites
+singeries aux personnes quand on les aime du bon du
+coeur. Regarde la grosse Thomasse comme elle est assotée
+du jeune Robain, alle est toujou autour de ly à lagacer, et
+ne le laisse jamais en repos. Toujou al ly fait queuque
+niche, ou ly baille quelque taloche en passant, et l'autre
+jour qu'il estoit assis sur un escabiau, al fut le tirer de dessous
+ly, et le fit choir tout de son long par tarre. Jarny ula
+où len voit les gens qui aimont, mais toy, tu ne me dis
+jamais mot, t'es toujou là comme eune vraye souche de
+bois, et je passerois ving fois devant toy que tu ne te
+groüillerois pas pour me bailler le moindre coup, ou me
+dire la moindre chose. Ventrequenne, ça n'est pas bian,
+aprés tout, et t'es trop froide pour les gens.
+
+CHARLOTE.
+Que veux-tu que j'y fasse ? c'est mon himeur, et je ne
+me pis refondre.
+
+PIERROT.
+Ignia himeur qui quienne, quand en a de l'amiquié
+pour les personnes, lan en baille toujou queuque petite
+signifiance.
+
+CHARLOTE.
+Enfin, je taime tout autant que je pis, et si tu n'es pas
+content de ça, tu n'as qu'à en aimer queuquautre.
+
+PIERROT.
+Eh bien, ula pas mon conte ? Testigué, si tu m'aimois,
+me dirois-tu ça ?
+
+CHARLOTE.
+Pourquoy me viens-tu aussi tarabuster l'esprit ?
+
+PIERROT.
+Morqué, queu mal te fais-je ? je ne te demande qu'un
+peu d'amiquié.
+
+CHARLOTE.
+Et bian, laisse faire aussi, et ne me presse point tant,
+peut-estre que ça viendra tout d'un coup sans y songer.
+
+PIERROT.
+Touche donc là, Charlote.
+
+CHARLOTE.
+Et bien, quien.
+
+PIERROT.
+Promets-moy donc que tu tâcheras de maimer davantage.
+
+CHARLOTE.
+J'y feray tout ce que je pourray, mais il faut que ça
+vienne de luy-mesme. Pierrot, est-ce là ce Monsieur ?
+
+PIERROT.
+Oüy, le ula.
+
+CHARLOTE.
+Ah, mon quieu, qu'il est genty, et que ç'auroit esté dommage
+qu'il eust été nayé.
+
+PIERROT.
+Je revians tout à l'heure, je m'en vas boire chopaine
+pour me rebouter tant soit peu de la fatigue que j'ays euë.
+
+
+SCÈNE II - D. JUAN, SGANARELLE, CHARLOTE.
+
+
+D. JUAN.
+Nous avons manqué nostre coup, Sganarelle, et cette
+bourasque impreveuë a renversé avec nostre barque le
+projet que nous avions fait ; mais à te dire vray, la Paysane
+que je viens de quiter repare ce mal-heur, et je luy ay
+trouvé des charmes qui effacent de mon esprit tout le chagrin
+que me donnoit le mauvais succez de nostre entreprise.
+Il ne faut pas que ce coeur m'échape, et j'y ay déja
+jetté des dispositions à ne pas me souffrir long-temps de
+pousser des soûpirs.
+
+SGANARELLE.
+Monsieur, j'avoüe que vous m'estonnez ; à peine
+sommes-nous échapez d'un peril de mort, qu'au lieu de
+rendre grace au Ciel de la pitié qu'il a daigné prendre de
+nous, vous travaillez tout de nouveau à attirer sa colere
+par vos fantaisies accoûtumées, et vos amours cr... Paix,
+coquin que vous estes, vous ne sçavez ce que vous dites,
+et Monsieur sçait ce qu'il fait, allons.
+
+D. JUAN appercevant Charlotte.
+Ah, ah, d'où sort cette autre Paysane, Sganarelle ? as-tu
+rien veu de plus joly, et ne trouves-tu pas, dy-moy, que
+celle-cy vaut bien l'autre ?
+
+SGANARELLE.
+Assurément. Autre piece nouvelle.
+
+D. JUAN.
+D'où me vient, la Belle, une rencontre si agreable ?
+quoy, dans ces lieux champestres, parmy ces arbres et ces
+rochers, on trouve des personnes faites comme vous estes ?
+
+CHARLOTE.
+Vous voyez, Monsieur.
+
+D. JUAN.
+Estes-vous de ce Village ?
+
+CHARLOTE.
+Oüy, Monsieur.
+
+D. JUAN.
+Et vous y demeurez ?
+
+CHARLOTE.
+Oüy, Monsieur.
+
+D. JUAN.
+Vous vous appellez ?
+
+CHARLOTE.
+Charlote, pour vous servir.
+
+D. JUAN.
+Ah ! la belle personne, et que ses yeux sont penetrans !
+
+CHARLOTE.
+Monsieur, vous me rendez toute honteuse.
+
+D. JUAN.
+Ah, n'ayez point de honte d'entendre dire vos veritez.
+Sganarelle, qu'en dis-tu ? peut-on rien voir de plus
+agreable ? Tournez-vous un peu, s'il vous plaist, ah que
+cette taille est jolie ! haussez un peu la teste, de grace, ah
+que ce visage est mignon. Ouvrez vos yeux entierement,
+ah qu'ils sont beaux ! Que je voye un peu vos dents, je vous
+prie, ah qu'elles sont amoureuses ! et ces lévres appetissantes.
+Pour moy, je suis ravy, et je n'ay jamais veu une si
+charmante personne.
+
+CHARLOTE.
+Monsieur, cela vous plaist à dire, et je ne sçay pas si
+c'est pour vous railler de moy.
+
+D. JUAN.
+Moy, me railler de vous ? Dieu m'en garde, je vous aime
+trop pour cela, et c'est du fond du coeur que je vous parle.
+
+CHARLOTE.
+Je vous suis bien obligée, si ça est.
+
+D. JUAN.
+Point du tout, vous ne m'estes point obligée de tout ce
+que je dis, et ce n'est qu'à vostre beauté que vous en estes
+redevable.
+
+CHARLOTE.
+Monsieur, tout ça est trop bien dit pour moy, et je n'ay
+pas d'esprit pour vous répondre.
+
+D. JUAN.
+Sganarelle, regarde un peu ses mains.
+
+CHARLOTE.
+Fy, Monsieur, elles sont noires comme je ne sçay quoy.
+
+D. JUAN.
+Ha que dites-vous là ? elles sont les plus belles du
+monde, souffrez que je les baise, je vous prie.
+
+CHARLOTE.
+Monsieur, c'est trop d'honneur que vous me faites, et
+si j'avois sceu ça tantost, je n'aurois pas manqué de les laver
+avec du son.
+
+D. JUAN.
+Et dites-moy un peu, Belle Charlote, vous n'estes pas
+mariée sans doute ?
+
+CHARLOTE.
+Non, Monsieur, mais je dois bien-tost l'estre avec
+Piarrot, le fils de la voisine Simonete.
+
+D. JUAN.
+Quoy, une personne comme vous seroit la femme d'un
+simple Paysan ? non, non, c'est profaner tant de beautez,
+et vous n'estes pas née pour demeurer dans un Village,
+vous meritez sans doute une meilleure fortune, et le Ciel
+qui le connoist bien, m'a conduit icy tout exprés pour empescher
+ce mariage, et rendre justice à vos charmes : car
+enfin, Belle Charlote, je vous aime de tout mon coeur, et il
+ne tiendra qu'à vous que je vous arrache de ce miserable
+lieu, et ne vous mette dans l'estat où vous meritez d'estre.
+Cét amour est bien prompt sans doute ; mais quoy, c'est
+un effet, Charlote, de vostre grande beauté, et l'on vous
+aime autant en un quart d'heure, qu'on feroit une autre en
+six mois.
+
+CHARLOTE.
+Aussi vray, Monsieur, je ne sçay comment faire
+quand vous parlez, ce que vous dites me fait aise, et j'aurois
+toutes les envies du monde de vous croire, mais on
+m'a toujou dit, qu'il ne faut jamais croire les Monsieux, et
+que vous autres Courtisans estes des enjoleus, qui ne
+songez qu'à abuser les filles.
+
+D. JUAN.
+Je ne suis pas de ces gens-là.
+
+SGANARELLE.
+Il n'a garde.
+
+CHARLOTE.
+Voyez-vous, Monsieur, il n'y a pas plaisir à se laisser
+abuser, je suis une pauvre Paysane, mais j'ay l'honneur
+en recommandation, et j'aimerois mieux me voir morte
+que de me voir deshonorée.
+
+D. JUAN.
+Moy, j'aurois l'ame assez méchante pour abuser une
+personne comme vous, je serois assez lâche pour vous
+deshonorer ? non, non, j'ay trop de conscience pour cela,
+je vous aime, Charlote, en tout bien et en tout honneur, et
+pour vous montrer que je vous dis vray, sçachez que je n'ay
+point d'autre dessein que de vous épouser. En voulez-vous
+un plus grand témoignage ? M'y voila prest quand vous
+voudrez, et je prends à témoin l'homme que voila de la
+parole que je vous donne.
+
+SGANARELLE.
+Non, non, ne craignez point, il se mariera avec vous tant
+que vous voudrez.
+
+D. JUAN.
+Ah, Charlote, je vois bien que vous ne me connoissez
+pas encore, vous me faites grand tort de juger de moy par
+les autres, et s'il y a des fourbes dans le monde, des gens
+qui ne cherchent qu'à abuser des Filles, vous devez me
+tirer du nombre, et ne pas mettre en doute la sincerité de
+ma foy, et puis vostre beauté vous assure de tout. Quand
+on est faite comme vous, on doit estre à couvert de toutes
+ces sortes de crainte, vous n'avez point l'air, croyez-moy,
+d'une personne qu'on abuse, et pour moy, je l'avoüe, je me
+percerois le coeur de mille coups, si j'avois eu la moindre
+pensée de vous trahir.
+
+CHARLOTE.
+Mon Dieu, je ne sçay si vous dites vray ou non, mais
+vous faites que l'on vous croit.
+
+D. JUAN.
+Lors que vous me croirez, vous me rendrez justice assurément,
+et je vous reïtere encore la promesse que je vous
+ay faite, ne l'acceptez-vous pas ? et ne voulez-vous pas
+consentir à estre ma femme ?
+
+CHARLOTE.
+Oüy, pourveu que ma Tante le veüille.
+
+D. JUAN.
+Touchez donc là, Charlote, puis que vous le voulez
+bien de vostre part.
+
+CHARLOTE.
+Mais au moins, Monsieur, ne m'allez pas tromper, je
+vous prie, il y auroit de la conscience à vous, et vous voyez
+comme j'y vais à la bonne foy.
+
+D. JUAN.
+Comment, il semble que vous doutiez encore de ma sincerité ?
+Voulez-vous que je fasse des sermens épouvantables ?
+Que le Ciel...
+
+CHARLOTE.
+Mon Dieu, ne jurez point, je vous croy.
+
+D. JUAN.
+Donnez-moy donc un petit baiser pour gage de vostre
+parole.
+
+CHARLOTE.
+Oh, Monsieur, attendez que je soyons mariez, je vous
+prie, aprés ça je vous baiseray tant que vous voudrez.
+
+D. JUAN.
+Et bien, Belle Charlote, je veux tout ce que vous voulez,
+abandonnez-moy seulement vostre main, et souffrez que
+par mille baisers je luy exprime le ravissement où je suis...
+
+
+SCÈNE III - D. JUAN, SGANARELLE, PIERROT, CHARLOTTE.
+
+
+PIERROT se mettant entre deux et poussant D. Juan.
+Tout doucement, Monsieur tenez-vous, s'il vous plaist,
+vous vous échauffez trop, et vous pourriez gagner la
+puresie.
+
+D. JUAN repoussant rudement Pierrot.
+Qui m'amene cét impertinent ?
+
+PIERROT.
+Je vous dis qu'ou vous tegniez, et qu'ou ne carressiais
+point nos accordées.
+
+D. JUAN continuë de le repousser.
+Ah, que de bruit.
+
+PIERROT.
+Jerniquenne, ce n'est pas comme ça qu'il faut pousser
+les gens.
+
+CHARLOTE prenant Pierrot par le bras.
+Et laisse-le faire aussi, Piarrot.
+
+PIERROT.
+Quement, que je le laisse faire. Je ne veux pas, moy !
+
+D. JUAN.
+Ah.
+
+PIERROT.
+Testiguenne, par ce qu'ous estes Monsieu, ous viendrez
+caresser nos femmes à note barbe ? allez u-s-en caresser
+les vostres.
+
+D. JUAN.
+Heu ?
+
+PIERROT.
+Heu. 
+D. Juan luy donne un soufflet. Testigué, ne me frapez
+pas. 
+Autre soufflet. Oh, jernigué ! 
+Autre soufflet. Ventrequé !
+
+Autre soufflet. Palsanqué, morquenne, ça n'est pas
+bian de batre les gens, et ce n'est pas là la recompense de
+u-s-avoir sauvé d'estre nayé.
+
+CHARLOTE.
+Piarrot, ne te fasche point.
+
+PIERROT.
+Je me veux fascher, et t'es une vilainte toy d'endurer
+qu'on te caieole.
+
+CHARLOTE.
+Oh, Piarrot, ce n'est pas ce que tu penses, ce Monsieur
+veut m'épouser, et tu ne dois pas te bouter en colere.
+
+PIERROT.
+Quement ? jerny, tu m'es promise.
+
+CHARLOTE.
+Ça n'y fait rien, Piarrot, si tu m'aimes, ne dois-tu pas
+estre bien-aise que je devienne Madame.
+
+PIERROT.
+Jerniqué, non, j'aime mieux te voir crevée que de te
+voir à un autre.
+
+CHARLOTE.
+Va va, Piarrot, ne te mets point en peine ; si je sis Madame,
+je te feray gagner queuque chose, et tu apporteras
+du beurre et du fromage cheux nous.
+
+PIERROT.
+Ventrequenne, je gny en porteray jamais quand tu
+m'en poyrois deux fois autant. Est-ce donc comme ça que
+t'escoutes ce qu'il te dit ? Morquenne, si j'avois sceu ça
+tantost, je me serois bian gardé de le tirer de gliau, et je
+gly aurois baillé un bon coup d'aviron sur la teste.
+
+D. JUAN s'aprochant de Pierrot pour le fraper.
+Qu'est-ce que vous dites ?
+
+PIERROT s'éloignant derriere Charlote.
+Jerniquenne, je ne crains parsonne.
+
+D. JUAN passe du costé où est Pierrot.
+Attendez-moy un peu.
+
+PIERROT repasse de l'autre costé de Charlote.
+Je me moque de tout, moy.
+
+D. JUAN court aprés Pierrot.
+Voyons cela.
+
+PIERROT se sauve encore derriere Charlote.
+J'en avons bien veu d'autres.
+
+D. JUAN.
+Hoüais.
+
+SGANARELLE.
+Eh, Monsieur, laissez-là ce pauvre miserable. C'est
+conscience de le batre. Ecoute, mon pauvre Garçon, retiretoy,
+et ne luy dis rien.
+
+PIERROT passe devant Sganarelle, et dit fierement
+à D. Juan.
+Je veux luy dire, moy.
+
+D. JUAN leve la main pour donner un soufflet à Pierrot,
+qui baisse la teste, et Sganarelle reçoit le soufflet.
+Ah, je vous apprendray.
+
+SGANARELLE regardant Pierrot qui s'est baissé pour éviter
+le soufflet.
+Peste soit du maroufle.
+
+D. JUAN.
+Te voila payé de ta charité.
+
+PIERROT.
+Jarny, je vas dire à sa Tante tout ce ménage-cy.
+
+D. JUAN.
+Enfin, je m'en vais estre le plus heureux de tous les
+hommes, et je ne changerois pas mon bonheur à toutes les
+choses du monde. Que de plaisirs quand vous serez ma
+femme, et que...
+
+
+SCÈNE IV - D. JUAN, SGANARELLE, CHARLOTE, MATHURINE.
+
+
+SGANARELLE appercevant Mathurine.
+Ah, ah.
+
+MATHURINE à Dom Juan.
+Monsieur, que faites vous donc là avec Charlote, est-ce
+que vous luy parlez d'amour aussi ?
+
+D. JUAN à Mathurine.
+Non, au contraire, c'est elle qui me témoignoit une envie
+d'estre ma femme, et je luy répondois que j'estois engagé
+à vous.
+
+CHARLOTE.
+Qu'est-ce que c'est donc que vous veut Mathurine ?
+
+D. JUAN bas à Charlotte.
+Elle est jalouse de me voir vous parler, et voudroit bien
+que je l'épousasse, mais je luy dis que c'est vous que je
+veux.
+
+MATHURINE.
+Quoy, Charlote...
+
+D. JUAN bas à Mathurine.
+Tout ce que vous luy direz sera inutile, elle s'est mis cela
+dans la teste.
+
+CHARLOTE.
+Quement donc Mathurine...
+
+D. JUAN bas à Charlote.
+C'est en vain que vous luy parlerez, vous ne luy osterez
+point cette fantaisie.
+
+MATHURINE.
+Est-ce que...
+
+D. JUAN bas à Mathurine.
+Il n'y a pas moyen de luy faire entendre raison.
+
+CHARLOTE.
+Je voudrois...
+
+D. JUAN bas à Charlotte.
+Elle est obstinée comme tous les Diables.
+
+MATHURINE.
+Vramant...
+
+D. JUAN bas à Mathurine.
+Ne luy dites rien, c'est une folle.
+
+CHARLOTE.
+Je pense...
+
+D. JUAN bas à Charlote.
+Laissez-la là, c'est une extravagante.
+
+MATHURINE.
+Non, non, il faut que je luy parle.
+
+CHARLOTE.
+Je veux voir un peu ses raisons.
+
+MATHURINE.
+Quoy...
+
+D. JUAN bas à Mathurine.
+Je gage qu'elle va vous dire que je luy ay promis de
+l'épouser.
+
+CHARLOTE.
+Je...
+
+D. JUAN bas à Charlote.
+Gageons qu'elle vous soustiendra que je luy ay donné
+parole de la prendre pour femme.
+
+MATHURINE.
+Hola, Charlote, ça n'est pas bien de courir sur le marché
+des autres.
+
+CHARLOTE.
+Ça n'est pas honneste, Mathurine, d'estre jalouse que
+Monsieur me parle.
+
+MATHURINE.
+C'est moy que Monsieur a veu la premiere.
+
+CHARLOTE.
+S'il vous a veu la premiere, il m'a veu la seconde, et m'a
+promis de m'épouser.
+
+D. JUAN bas à Mathurine.
+Et bien, que vous ay-je dit ?
+
+MATHURINE.
+Je vous baise les mains, c'est moy, et non pas vous qu'il
+a promis d'épouser.
+
+D. JUAN bas à Charlote.
+N'ay-je pas deviné ?
+
+CHARLOTE.
+A d'autres, je vous prie, c'est moy, vous dis-je.
+
+MATHURINE.
+Vous vous moquez des gens, c'est moy, encore un coup.
+
+CHARLOTE.
+Le ula qui est pour le dire, si je n'ay pas raison.
+
+MATHURINE.
+Le ula qui est pour me dementir, si je ne dis pas vray.
+
+CHARLOTE.
+Est-ce, Monsieu, que vous luy avez promis de l'épouser ?
+
+D. JUAN bas à Charlote.
+Vous vous raillez de moy.
+
+MATHURINE.
+Est-il vray, Monsieur, que vous luy avez donné parole
+d'estre son mary ?
+
+D. JUAN bas à Mathurine.
+Pouvez-vous avoir cette pensée ?
+
+CHARLOTE.
+Vous voyez qu'al le soûtient.
+
+D. JUAN bas à Charlote.
+Laissez-la faire.
+
+MATHURINE.
+Vous estes témoin comme al l'assure.
+
+D. JUAN bas à Mathurine.
+Laissez-la dire.
+
+CHARLOTE.
+Non, non, il faut sçavoir la verité.
+
+MATHURINE.
+Il est question de juger ça.
+
+CHARLOTE.
+Oüy, Mathurine, je veux que Monsieur vous montre
+vostre bec jaune.
+
+MATHURINE.
+Oüy, Charlote, je veux que Monsieur vous rende un
+peu camuse.
+
+CHARLOTE.
+Monsieur, vuidez la querelle, s'il vous plaît.
+
+MATHURINE.
+Mettez-nous d'accord, Monsieur.
+
+CHARLOTE à Mathurine.
+Vous allez voir.
+
+MATHURINE à Charlote.
+Vous allez voir vous mesme.
+
+CHARLOTE à D. Juan.
+Dites.
+
+MATHURINE à D. Juan.
+Parlez.
+
+D. JUAN embarassé leur dit à toutes deux.
+Que voulez-vous que je dise ? vous soûtenez également
+toutes deux que je vous ay promis de vous prendre pour
+femmes. Est-ce que chacune de vous ne sçait pas ce qui
+en est, sans qu'il soit necessaire que je m'explique davantage ?
+pourquoy m'obliger là-dessus à des redites ? celle à
+qui j'ay promis effectivement n'a-t-elle pas en elle-mesme
+dequoy se moquer des discours de l'autre, et doit-elle se
+mettre en peine pourveu que j'accomplisse ma promesse ?
+Tous les discours n'avancent point les choses, il faut faire,
+et non pas dire, et les effets décident mieux que les paroles.
+Aussi n'est-ce rien que par là que je vous veux mettre
+d'accord, et l'on verra quand je me marieray, laquelle des
+deux a mon coeur. 
+Bas, à Mathurine. Laissez-luy croire ce
+qu'elle voudra. 
+Bas, à Charlotte. Laissez-la se flater dans
+son imagination. 
+Bas, à Mathurine. Je vous adore. 
+Bas, à
+Charlotte. Je suis tout à vous. 
+Bas, à Mathurine. Tous les
+visages sont laids auprés du vostre. 
+Bas, à Charlote. On
+ne peut plus souffrir les autres quand on vous a veuë. J'ay
+un petit ordre à donner, je viens vous retrouver dans un
+quart d'heure.
+
+CHARLOTE à Mathurine.
+Je suis celle qu'il aime, au moins.
+
+MATHURINE.
+C'est moy qu'il épousera.
+
+SGANARELLE.
+Ah, pauvres filles que vous estes, j'ay pitié de vostre
+innocence, et je ne puis souffrir de vous voir courir à vostre
+malheur. Croyez-moy l'une et l'autre, ne vous amusez
+point à tous les contes qu'on vous fait, et demeurez dans
+vostre village.
+
+D. JUAN revenant.
+Je voudrois bien sçavoir pourquoy Sganarelle ne me
+suit pas.
+
+SGANARELLE à ces filles.
+Mon Maistre est un fourbe, il n'a dessein que de vous
+abuser, et en a bien abusé d'autres, c'est l'Epouseur du
+genre humain, et... (
+il apperçoit D. Juan) cela est faux, et
+quiconque vous dira cela, vous luy devez dire qu'il en a
+menty. Mon Maistre n'est point l'Epouseur du genre
+humain, il n'est point fourbe, il n'a pas dessein de vous
+tromper, et n'en a point abusé d'autres. Ah, tenez, le voila,
+demandez-le plûtost à luy-mesme.
+
+D. JUAN.
+Oüy.
+
+SGANARELLE.
+Monsieur, comme le monde est plein de médisans, je
+vais au devant des choses, et je leur disois que si quelqu'un
+leur venoit dire du mal de vous, elles se gardassent bien
+de le croire, et ne manquassent pas de luy dire qu'il en
+auroit menty.
+
+D. JUAN.
+Sganarelle.
+
+SGANARELLE.
+Oüy, Monsieur est homme d'honneur, je le garantis tel.
+
+D. JUAN.
+Hon.
+
+SGANARELLE.
+Ce sont des impertinens.
+
+SCÈNE V.
+
+D. JUAN, LA RAMÉE, CHARLOTE,
+MATHURINE, SGANARELLE.
+
+LA RAMÉE.
+Monsieur, je viens vous avertir qu'il ne fait pas bon icy
+pour vous.
+
+D. JUAN.
+Comment ?
+
+LA RAMÉE.
+Douze hommes à cheval vous cherchent, qui doivent
+arriver icy dans un moment, je ne sçay pas par quel moyen
+ils peuvent vous avoir suivy, mais j'ay appris cette nouvelle
+d'un Païsan qu'ils ont interrogé, et auquel ils vous ont
+dépeint. L'affaire presse, et le plûtost que vous pourrez
+sortir d'icy, sera le meilleur.
+
+D. JUAN à Charlote et Mathurine.
+Une affaire pressante m'oblige de partir d'icy, mais je
+vous prie de vous ressouvenir de la parole que je vous ay
+donnée, et de croire que vous aurez de mes nouvelles avant
+qu'il soit demain au soir. Comme la partie n'est pas égale, il
+faut user de stratageme, et éluder adroitement le malheur
+qui me cherche, je veux que Sganarelle se reveste de mes
+habits, et moy...
+
+SGANARELLE.
+Monsieur, vous vous moquez, m'exposer à estre tué sous
+vos habits, et...
+
+D. JUAN.
+Allons viste, c'est trop d'honneur que je vous fais, et
+bien heureux est le Valet qui peut avoir la gloire de mourir
+pour son Maistre.
+
+SGANARELLE.
+Je vous remercie d'un tel honneur. O Ciel, puis qu'il
+s'agit de mort, fais-moy la grace de n'estre point pris pour
+un autre.
+
+
+ACTE III
+-----------
+
+
+SCÈNE PREMIERE - D. JUAN en habit de campagne, SGANARELLE
+en Medecin.
+
+
+SGANARELLE.
+Ma foy, Monsieur, avoüez que j'ay eu raison, et que
+nous voila l'un et l'autre déguisez à merveille. Vostre premier
+dessein n'estoit point du tout à propos, et cecy nous
+cache bien mieux que tout ce que vous vouliez faire.
+
+D. JUAN.
+Il est vray que te voila bien, et je ne sçay où tu as esté
+déterrer cét attirail ridicule.
+
+SGANARELLE.
+Oüy ? c'est l'habit d'un vieux Medecin qui a esté laissé
+en gage au lieu où je l'ay pris, et il m'en a coûté de l'argent
+pour l'avoir. Mais sçavez-vous, Monsieur, que cét
+habit me met déja en consideration ? que je suis salué des
+gens que je rencontre, et que l'on me vient consulter ainsi
+qu'un habile homme ?
+
+D. JUAN.
+Comment donc ?
+
+SGANARELLE.
+Cinq ou six Païsans et Païsanes en me voyant passer
+me sont venus demander mon avis sur differentes maladies.
+
+D. JUAN.
+Tu leur as répondu que tu n'y entendois rien ?
+
+SGANARELLE.
+Moy ? point du tout, j'ay voulu soûtenir l'honneur de
+mon habit, j'ay raisonné sur le mal, et leur ay fait des ordonnances
+à chacun.
+
+D. JUAN.
+Et quels remedes encore leur as-tu ordonnez ?
+
+SGANARELLE.
+Ma foy, Monsieur, j'en ay pris par où j'en ay pû attraper,
+j'ay fait mes ordonnances à l'avanture, et ce seroit une
+chose plaisante si les malades guérissoient, et qu'on m'en
+vinst remercier.
+
+D. JUAN.
+Et pourquoy non ? par quelle raison n'aurois-tu pas les
+mesmes privileges qu'ont tous les autres Medecins ? ils
+n'ont pas plus de part que toy aux guérisons des malades,
+et tout leur art est pure grimace. Ils ne font rien que recevoir
+la gloire des heureux succez, et tu peux profiter comme
+eux du bon-heur du malade, et voir attribuer à tes remedes
+tout ce qui peut venir des faveurs du hazard, et des forces
+de la nature.
+
+SGANARELLE.
+Comment, Monsieur, vous estes aussi impie en Medecine ?
+
+D. JUAN.
+C'est une des grandes erreurs qui soit parmy les hommes.
+
+SGANARELLE.
+Quoy, vous ne croyez pas au sené, ny à la casse, ny au
+vin hemetique ?
+
+D. JUAN.
+Et pourquoy veux tu que j'y croye ?
+
+SGANARELLE.
+Vous avez l'ame bien mécreante. Cependant vous voyez
+depuis un temps que le vin hemetique fait bruire ses fuseaux.
+Ses miracles ont converty les plus incredules
+esprits, et il n'y a pas trois semaines que j'en ay veu, moy
+qui vous parle, un effet merveilleux.
+
+D. JUAN.
+Et quel ?
+
+SGANARELLE.
+Il y avoit un homme qui depuis six jours estoit à l'agonie,
+on ne sçavoit plus que luy ordonner, et tous les remedes
+ne faisoient rien, on s'avisa à la fin de luy donner de
+l'hemetique.
+
+D. JUAN.
+Il réchapa, n'est-ce pas ?
+
+SGANARELLE.
+Non, il mourut.
+
+D. JUAN.
+L'effet est admirable.
+
+SGANARELLE.
+Comment ? il y avoit six jours entiers qu'il ne pouvoit
+mourir, et cela le fit mourir tout d'un coup. Voulez-vous
+rien de plus efficace ?
+
+D. JUAN.
+Tu as raison.
+
+SGANARELLE.
+Mais laissons-là la Medecine où vous ne croyez point, et
+parlons des autres choses : car cét habit me donne de l'esprit,
+et je me sens en humeur de disputer contre vous.
+Vous sçavez bien que vous me permettez les disputes, et
+que vous ne me défendez que les remontrances.
+
+D. JUAN.
+Hé bien !
+
+SGANARELLE.
+Je veux sçavoir un peu vos pensées à fonds. Est-il possible
+que vous ne croyez point du tout au Ciel ?
+
+D. JUAN.
+Laissons cela.
+
+SGANARELLE.
+C'est-à-dire que non ; et à l'Enfer ?
+
+D. JUAN.
+Eh.
+
+SGANARELLE.
+Tout de mesme ; et au Diable s'il vous plaist ?
+
+D. JUAN.
+Oüy, oüy.
+
+SGANARELLE.
+Aussi peu ; ne croyez-vous point l'autre vie ?
+
+D. JUAN.
+Ah, ah, ah.
+
+SGANARELLE.
+Voila un homme que j'auray bien de la peine à convertir.
+Et, dites-moy un peu, [le Moine bourru, qu'en croyez-vous ?
+eh !
+
+D. JUAN.
+La peste soit du fat.
+
+SGANARELLE.
+Et voyla ce que je ne puis souffrir, car il n'y a rien de
+plus vray que le Moine bourru ; et je me ferois pendre
+pour celuy-là ; mais] encore faut-il croire quelque chose
+[dans le monde], qu'est-ce [donc] que vous croyez ?
+
+D. JUAN.
+Ce que je croy ?
+
+SGANARELLE.
+Oüy.
+
+D. JUAN.
+Je croy que deux et deux sont quatre, Sganarelle, et
+que quatre et quatre sont huit.
+
+SGANARELLE.
+La belle croyance [et les beaux articles de foi] que voila ;
+vostre religion, à ce que je vois, est donc l'aritmetique ; il
+faut avoüer qu'il se met d'étranges folies dans la teste des
+hommes, et que pour avoir bien estudié on en est bien moins
+sage le plus souvent ; pour moy, Monsieur, je n'ay point
+estudié comme vous, Dieu mercy, et personne ne sçauroit
+se vanter de m'avoir jamais rien appris, mais avec mon
+petit sens, mon petit jugement, je voy les choses mieux
+que tous les livres, et je comprens fort bien que ce monde,
+que nous voyons, n'est pas un champignon qui soit venu
+tout seul en une nuict. Je voudrois bien vous demander
+qui a fait ces arbres-là, ces rochers, cette terre, et ce Ciel
+que voilà là-haut, et si tout cela s'est basty de luy-mesme ;
+vous voilà vous par exemple, vous estes là ; est-ce que vous
+vous estes fait tout seul, et n'a-t-il pas fallu que vostre
+pere ait engrossé vostre mere pour vous faire ? pouvez-vous
+voir toutes les inventions, dont la machine de l'homme
+est composée, sans admirer de quelle façon cela est
+ageancé l'un dans l'autre ? ces nerfs, ces os, ces veines, ces
+arteres, ces... ce poumon, ce coeur, ce foye, et tous ces
+autres ingrediens qui sont là et qui... oh dame, interrompez-moy
+donc si vous voulez, je ne sçaurois disputer si l'on
+ne m'interrompt, vous vous taisez exprés, et me laissez
+parler par belle malice.
+
+D. JUAN.
+J'attends que ton raisonnement soit finy.
+
+SGANARELLE.
+Mon Raisonnement est qu'il y a quelque chose d'admirable
+dans l'homme quoy que vous puissiez dire, que tous
+les sçavans ne sçauroient expliquer ; cela n'est-il pas merveilleux
+que me voilà icy, et que j'aye quelque chose dans
+la teste qui pense cent choses differentes en un moment,
+et fait de mon corps tout ce qu'elle veut ! je veux frapper
+des mains, hausser le bras, lever les yeux au Ciel, baisser
+la teste, remuer les pieds, aller à droit, à gauche, en avant,
+en arriere, tourner...
+
+(Il se laisse tomber en tournant.)
+
+D. JUAN.
+Bon voila ton raisonnement qui a le nez cassé.
+
+SGANARELLE.
+Morbleu, je suis bien sot de m'amuser à raisonner avec
+vous ; croyez ce que vous voudrez, il m'importe bien que
+vous soyez damné !
+
+D. JUAN.
+Mais tout en raisonnant, je croy que nous sommes égarez ;
+appelle un peu cét homme que voila là-bas, pour luy
+demander le chemin.
+
+SGANARELLE.
+Hola, ho, l'homme ; ho, mon compere, ho l'amy, un
+petit mot, s'il vous plaist.
+
+
+SCÈNE II - D. JUAN, SGANARELLE, FRANCISQUE.
+
+
+SGANARELLE.
+Enseignez-nous un peu le chemin qui meine à la Ville.
+
+LE PAUVRE.
+Vous n'avez qu'à suivre cette route, Messieurs, et détourner
+à main droite quand vous serez au bout de la
+forest. Mais je vous donne avis que vous devez vous tenir
+sur vos gardes, et que depuis quelque temps, il y a des voleurs
+icy autour.
+
+D. JUAN.
+Je te suis bien obligé, mon amy, et je te rends graces de
+tout mon coeur.
+
+LE PAUVRE.
+Si vous vouliez, Monsieur, me secourir de quelque aumosne.
+
+D. JUAN.
+Ah, ah, ton avis est interessé à ce que je vois.
+
+LE PAUVRE.
+Je suis un Pauvre homme, Monsieur, retiré tout seul
+dans ce bois depuis dix ans, et je ne manqueray pas de
+prier le Ciel qu'il vous donne toute sorte de biens.
+
+D. JUAN.
+Eh, prie-le qu'il te donne un habit, sans te mettre en
+peine des affaires des autres.
+
+SGANARELLE.
+Vous ne connoissez pas Monsieur, bon homme, il ne
+croit qu'en deux et deux sont quatre, et en quatre et
+quatre sont huit.
+
+D. JUAN.
+Quelle est ton occupation parmy ces arbres ?
+
+LE PAUVRE.
+De prier le Ciel tout le jour pour la prosperité des gens
+de bien qui me donnent quelque chose.
+
+D. JUAN.
+Il ne se peut donc pas que tu ne sois bien à ton aise ?
+
+LE PAUVRE.
+Helas, Monsieur, je suis dans la plus grande necessité
+du monde.
+
+D. JUAN.
+Tu te moques, un homme qui prie le Ciel tout le jour
+ne peut pas manquer d'estre bien dans ses affaires.
+
+LE PAUVRE.
+Je vous asseure, Monsieur, que le plus souvent je n'ay
+pas un morceau de pain à mettre sous les dents.
+
+D. JUAN.
+[Voila qui est étrange, et tu es bien mal reconnu de tes
+soins ; ah ah, je m'en vais te donner un Louis d'or tout à
+l'heure pourveu que tu veuilles jurer.
+
+LE PAUVRE.
+Ah, Monsieur, voudriez-vous que je commisse un tel
+péché ?
+
+D. JUAN.
+Tu n'as qu'à voir si tu veux gagner un Louis d'or ou
+non, en voici un que je te donne si tu jures, tiens il faut
+jurer.
+
+LE PAUVRE.
+Monsieur.
+
+D. JUAN.
+A moins de cela tu ne l'auras pas.
+
+SGANARELLE.
+Va, va, jure un peu, il n'y a pas de mal.
+
+D. JUAN.
+Prens, le voila, prens te dis-je, mais jure donc.
+
+LE PAUVRE.
+Non Monsieur, j'ayme mieux mourir de faim.
+
+D. JUAN.
+Va va,] je te le donne pour l'amour de l'humanité.
+Mais que voy-je là, un homme attaqué par trois autres ?
+la partie est trop inégale, et je ne dois pas souffrir cette
+lascheté.
+
+(Il court au lieu du combat.)
+
+
+SCÈNE III - D. JUAN, D. CARLOS, SGANARELLE.
+
+
+SGANARELLE.
+Mon Maître est un vray enragé d'aller se presenter à
+un peril qui ne le cherche pas, mais, ma foy, le secours a
+servy, et les deux ont fait fuir les trois.
+
+D. CARLOS l'épée à la main.
+On voit par la fuite de ces voleurs de quel secours est
+vostre bras, souffrez, Monsieur, que je vous rende grace
+d'une action si genereuse, et que...
+
+D. JUAN revenant l'épée à la main.
+Je n'ay rien fait, Monsieur, que vous n'eussiez fait en ma
+place. Nostre propre honneur est interessé dans de pareilles
+avantures, et l'action de ces coquins estoit si lâche, que
+c'eust esté y prendre part que de ne s'y pas opposer, mais
+par quelle rencontre vous estes-vous trouvé entre leurs
+mains ?
+
+D. CARLOS.
+Je m'estois par hazard égaré d'un frere, et de tous ceux
+de nostre suite, et comme je cherchois à les rejoindre, j'ay
+fait rencontre de ces voleurs, qui d'abord ont tué mon
+cheval, et qui sans vôtre valeur en auroient fait autant de
+moy.
+
+D. JUAN.
+Vostre dessein est-il d'aller du costé de la Ville ?
+
+D. CARLOS.
+Oüy, mais sans y vouloir entrer, et nous nous voyons
+obligez mon frere et moy à tenir la campagne pour une
+de ces fascheuses affaires qui reduisent les Gentilshommes
+à se sacrifier eux et leur famille à la severité de leur honneur,
+puis qu'enfin le plus doux succez en est toûjours
+funeste, et que si l'on ne quite pas la vie, on est contraint
+de quiter le Royaume ; et c'est en quoy je trouve la condition
+d'un Gentilhomme malheureuse, de ne pouvoir
+point s'assurer sur toute la prudence et toute l'honnesteté
+de sa conduite, d'estre asservy par les Loix de l'honneur
+au déreglement de la conduite d'autruy, et de voir sa vie,
+son repos, et ses biens dépendre de la fantaisie du premier
+temeraire qui s'avisera de luy faire une de ces injures pour
+qui un honneste homme doit perir.
+
+D. JUAN.
+On a cét avantage qu'on fait courir le mesme risque, et
+passer aussi mal le temps à ceux qui prennent fantaisie
+de nous venir faire une offense de gayeté de coeur. Mais ne
+seroit-ce point une indiscretion que de vous demander
+quelle peut estre vostre affaire ?
+
+D. CARLOS.
+La chose en est aux termes de n'en plus faire de secret,
+et lors que l'injure a une fois éclaté, nostre honneur ne va
+point à vouloir cacher nostre honte, mais à faire éclater
+nostre vengeance, et à publier mesme le dessein que nous
+en avons. Ainsi, Monsieur, je ne feindray point de vous
+dire que l'offense que nous cherchons à vanger, est une
+soeur seduite et enlevée d'un Convent, et que l'Auteur
+de cette offence est un D. Juan Tenorio, fils de D. Loüis
+Tenorio. Nous le cherchons depuis quelques jours, et
+nous l'avons suivy ce matin sur le rapport d'un Valet, qui
+nous a dit qu'il sortoit à cheval accompagné de quatre ou
+cinq, et qu'il avoit pris le long de cette coste, mais tous
+nos soins ont esté inutiles, et nous n'avons pû découvrir
+ce qu'il est devenu.
+
+D. JUAN.
+Le connoissez-vous, Monsieur, ce D. Juan dont vous
+parlez ?
+
+D. CARLOS.
+Non, quant à moy. Je ne l'ay jamais veu, et je l'ay seulement
+oüy dépeindre à mon frere, mais la Renommée
+n'en dit pas force bien, et c'est un homme dont la vie...
+
+D. JUAN.
+Arrestez, Monsieur, s'il vous plaist, il est un peu de mes
+amis, et ce seroit à moy une espece de lascheté que d'en
+oüir dire du mal.
+
+D. CARLOS.
+Pour l'amour de vous, Monsieur, je n'en diray rien du
+tout, et c'est bien la moindre chose que je vous doive,
+aprés m'avoir sauvé la vie, que de me taire devant vous
+d'une personne que vous connoissez, lors que je ne puis
+en parler sans en dire du mal : mais quelque amy que vous
+luy soyez, j'ose esperer que vous n'approuverez pas son
+action, et ne trouverez pas estrange que nous cherchions
+d'en prendre la vengeance.
+
+D. JUAN.
+Au contraire, je vous y veux servir, et vous épargner
+des soins inutiles ; je suis amy de D. Juan, je ne puis pas
+m'en empescher, mais il n'est pas raisonnable qu'il offence
+impunément des Gentilshommes, et je m'engage à vous
+faire faire raison par luy.
+
+D. CARLOS.
+Et quelle raison peut-on faire à ces sortes d'injures ?
+
+D. JUAN.
+Toute celle que vostre honneur peut souhaiter ; et sans
+vous donner la peine de chercher D. Juan davantage, je
+m'oblige à le faire trouver au lieu que vous voudrez, et
+quand il vous plaira.
+
+D. CARLOS.
+Cét espoir est bien doux, Monsieur, à des coeurs offencez ;
+mais aprés ce que je vous dois, ce me seroit une trop
+sensible douleur, que vous fussiez de la partie.
+
+D. JUAN.
+Je suis si attaché à D. Juan, qu'il ne sçauroit se battre
+que je ne me batte aussi : mais enfin j'en réponds comme
+de moy-mesme, et vous n'avez qu'à dire quand vous voulez
+qu'il paroisse, et vous donne satisfaction.
+
+D. CARLOS.
+Que ma destinée est cruelle ! faut-il que je vous doive la
+vie, et que D. Juan soit de vos amis !
+
+SCÈNE IV.
+
+D. ALONSE et trois suivans, D. CARLOS,
+D. JUAN, SGANARELLE.
+
+D. ALONSE.
+Faites boire là mes chevaux, et qu'on les amene aprés
+nous, je veux un peu marcher à pied. O Ciel, que vois-je
+icy ? Quoy, mon frere, vous voila avec nostre Ennemy
+mortel ?
+
+D. CARLOS.
+Nostre Ennemy mortel ?
+
+D. JUAN se reculant trois pas et mettant fierement
+la main sur la garde de son épée.
+Oüy, je suis D. Juan moy-mesme, et l'avantage du
+nombre ne m'obligera pas à vouloir déguiser mon nom.
+
+D. ALONSE.
+Ah, traître, il faut que tu perisses, et...
+
+D. CARLOS.
+Ah, mon frere, arrestez, je luy suis redevable de la vie,
+et sans le secours de son bras, j'aurois esté tué par des voleurs
+que j'ay trouvez.
+
+D. ALONSE.
+Et voulez-vous que cette consideration empesche nostre
+vengeance ? tous les services que nous rend une main
+ennemie, ne sont d'aucun merite pour engager nostre
+ame ; et s'il faut mesurer l'obligation à l'injure, vostre
+reconnoissance, mon frere, est icy ridicule ; et comme
+l'honneur est infiniment plus precieux que la vie, c'est ne
+devoir rien proprement, que d'estre redevable de la vie à
+qui nous a osté l'honneur.
+
+D. CARLOS.
+Je sçay la difference, mon frere, qu'un Gentil-homme
+doit toûjours mettre entre l'un et l'autre, et la reconnoissance
+de l'obligation n'efface point en moy le ressentiment
+de l'injure : mais souffrez que je luy rende icy ce qu'il m'a
+presté, que je m'acquite sur le champ de la vie que je luy
+dois par un delay de nostre vengeance, et luy laisse la
+liberté de joüir durant quelques jours du fruit de son bien-fait.
+
+D. ALONSE.
+Non, non, c'est hazarder nostre vengeance que de la
+reculer, et l'occasion de la prendre peut ne plus revenir ;
+le Ciel nous l'offre icy, c'est à nous d'en profiter. Lors que
+l'honneur est blessé mortellement, on ne doit point songer
+à garder aucunes mesures, et si vous repugnez à prester
+vôtre bras à cette action, vous n'avez qu'à vous retirer, et
+laisser à ma main la gloire d'un tel sacrifice.
+
+D. CARLOS.
+De grace, mon frere...
+
+D. ALONSE.
+Tous ces discours sont superflus ; il faut qu'il meure.
+
+D. CARLOS.
+Arrestez-vous, dis-je, mon frere, je ne souffriray point
+du tout qu'on attaque ses jours, et je jure le Ciel que je le
+défendray icy contre qui que ce soit, et je sçauray luy faire
+un rempart de cette mesme vie qu'il a sauvée, et pour
+adresser vos coups, il faudra que vous me perciez.
+
+D. ALONSE.
+Quoy vous prenez le party de nostre Ennemy contre
+moy, et loin d'estre saisi à son aspect des mesmes transports
+que je sens, vous faites voir pour luy des sentimens
+pleins de douceur ?
+
+D. CARLOS.
+Mon frere, montrons de la moderation dans une action
+legitime, et ne vangeons point nostre honneur avec cét
+emportement que vous témoignez. Ayons du coeur dont
+nous soyons les maîtres, une valeur qui n'ait rien de farouche,
+et qui se porte aux choses par une pure deliberation
+de nostre raison, et non point par le mouvement d'une
+aveugle colere. Je ne veux point, mon frere, demeurer
+redevable à mon Ennemy, et je luy ay une obligation dont
+il faut que je m'acquite avant toute chose. Nostre vangeance
+pour estre differée n'en sera pas moins éclatante ;
+au contraire, elle en tirera de l'avantage, et cette occasion
+de l'avoir pû prendre, la fera paroistre plus juste aux yeux
+de tout le monde.
+
+D. ALONSE.
+O l'étrange foiblesse, et l'aveuglement effroyable, d'hazarder
+ainsi les interests de son honneur pour la ridicule
+pensée d'une obligation chimerique !
+
+D. CARLOS.
+Non, mon frere, ne vous mettez pas en peine ; si je fais
+une faute, je sçauray bien la reparer, et je me charge de
+tout le soin de nostre honneur, je sçay à quoy il nous
+oblige, et cette suspension d'un jour que ma reconnoissance
+luy demande, ne fera qu'augmenter l'ardeur que j'ay
+de le satisfaire. D. Juan, vous voyez que j'ay soin de vous
+rendre le bien que j'ay receu de vous, et vous devez par là
+juger du reste, croire que je m'acquite avec mesme chaleur
+de ce que je dois, et que je ne seray pas moins exact à
+vous payer l'injure que le bien-fait. Je ne veux point vous
+obliger icy à expliquer vos sentimens, et je vous donne la
+liberté de penser à loisir aux resolutions que vous avez à
+prendre. Vous connoissez assez la grandeur de l'offence
+que vous nous avez faite, et je vous fais juge vous mesme
+des reparations qu'elle demande. Il est des moyens doux
+pour nous satisfaire ; il en est de violens et de sanglans ;
+mais enfin, quelque choix que vous fassiez, vous m'avez
+donné parole de me faire faire raison par D. Juan, songez
+à me la faire, je vous prie, et vous ressouvenez que hors
+d'icy je ne dois plus qu'à mon honneur.
+
+D. JUAN.
+Je n'ay rien exigé de vous, et vous tiendray ce que j'ay
+promis.
+
+D. CARLOS.
+Allons, mon frere, un moment de douceur ne fait
+aucune injure à la severité de nostre devoir.
+
+SCÈNE V.
+
+D. JUAN, SGANARELLE.
+
+D. JUAN.
+Hola, hé, Sganarelle.
+
+SGANARELLE.
+Plaist-il ?
+
+D. JUAN.
+Comment, coquin, tu fuis quand on m'attaque ?
+
+SGANARELLE.
+Pardonnez-moy, Monsieur, je viens seulement d'icy
+prés, je croy que cet habit est purgatif, et que c'est prendre
+medecine que de le porter.
+
+D. JUAN.
+Peste soit l'insolent, couvre au moins ta poltronnerie
+d'un voile plus honneste, sçais-tu bien qui est celuy à qui
+j'ay sauvé la vie ?
+
+SGANARELLE.
+Moy ? non.
+
+D. JUAN.
+C'est un frere d'Elvire.
+
+SGANARELLE.
+Un...
+
+D. JUAN.
+Il est assez honneste homme, il en a bien usé, et j'ay
+regret d'avoir démêlé avec luy.
+
+SGANARELLE.
+Il vous seroit aisé de pacifier toutes choses.
+
+D. JUAN.
+Oüy, mais ma passion est usée pour D. Elvire, et l'engagement
+ne compatit point avec mon humeur. J'aime la
+liberté en amour, tu le sçais, et je ne sçaurois me resoudre
+à renfermer mon coeur entre quatre murailles. Je te l'ay
+dit vingt fois, j'ay une pente naturelle à me laisser aller à
+tout ce qui m'attire. Mon coeur est à toutes les belles, et
+c'est à elles à le prendre tour à tour, et à le garder tant
+qu'elles le pourront. Mais quel est le superbe Edifice que
+je vois entre ces arbres ?
+
+SGANARELLE.
+Vous ne le sçavez pas ?
+
+D. JUAN.
+Non vraiment.
+
+SGANARELLE.
+Bon, c'est le Tombeau que le Commandeur faisoit faire
+lors que vous le tuastes.
+
+D. JUAN.
+Ah, tu as raison, je ne sçavois pas que c'estoit de ce
+costé-cy qu'il estoit. Tout le monde m'a dit des merveilles
+de cét ouvrage, aussi bien que de la statuë du Commandeur,
+et j'ay envie de l'aller voir.
+
+SGANARELLE.
+Monsieur, n'allez point là.
+
+D. JUAN.
+Pourquoy ?
+
+SGANARELLE.
+Cela n'est pas civil d'aller voir un homme que vous
+avez tué.
+
+D. JUAN.
+Au contraire, c'est une visite dont je luy veux faire civilité,
+et qu'il doit recevoir de bonne grace, s'il est galant
+homme, allons, entrons dedans.
+
+(Le Tombeau s'ouvre, où l'on voit un superbe Mausolée,
+et la Statuë du Commandeur.)
+
+SGANARELLE.
+Ah, que cela est beau ! les belles Statuës ! le beau marbre !
+les beaux pilliers ! ah, que cela est beau, qu'en dites-vous,
+Monsieur ?
+
+D. JUAN.
+Qu'on ne peut voir aller plus loin l'ambition d'un
+homme mort, et ce que je trouve admirable, c'est qu'un
+homme qui s'est passé durant sa vie d'une assez simple
+demeure, en veüille avoir une si magnifique pour quand il
+n'en a plus que faire.
+
+SGANARELLE.
+Voicy la Statuë du Commandeur.
+
+D. JUAN.
+Parbleu, le voila bon avec son habit d'Empereur Romain.
+
+SGANARELLE.
+Ma foy, Monsieur, voila qui est bien fait. Il semble
+qu'il est en vie, et qu'il s'en va parler. Il jette des regards
+sur nous qui me feroient peur si j'estois tout seul, et je
+pense qu'il ne prend pas plaisir de nous voir.
+
+D. JUAN.
+Il auroit tort, et ce seroit mal recevoir l'honneur que je
+luy fais. Demande-luy s'il veut venir souper avec moy.
+
+SGANARELLE.
+C'est une chose dont il n'a pas besoin, je croy.
+
+D. JUAN.
+Demande-luy, te dis-je.
+
+SGANARELLE.
+Vous moquez-vous ? Ce seroit estre fou que d'aller
+parler à une Statuë.
+
+D. JUAN.
+Fais ce que je te dis.
+
+SGANARELLE.
+Quelle bizarrerie ! Seigneur Commandeur... je ry de ma
+sottise, mais c'est mon Maître qui me la fait faire. Seigneur
+Commandeur, mon Maître D. Juan vous demande
+si vous voulez luy faire l'honneur de venir souper avec luy.
+(La Statuë baisse la teste.)
+Ha !
+
+D. JUAN.
+Qu'est-ce ? qu'as-tu ? dy donc, veux-tu parler ?
+
+SGANARELLE fait le mesme signe que luy a fait la Statuë, et baisse la teste.
+La Statuë...
+
+D. JUAN.
+Et bien, que veux-tu dire, traistre ?
+
+SGANARELLE.
+Je vous dis que la Statuë...
+
+D. JUAN.
+Et bien, la Statuë ? je t'assomme si tu ne parles.
+
+SGANARELLE.
+La Statuë m'a fait signe.
+
+D. JUAN.
+La peste le coquin.
+
+SGANARELLE.
+Elle m'a fait signe, vous dis-je, il n'est rien de plus vray.
+Allez-vous-en luy parler vous-mesme pour voir ; peut-estre...
+
+D. JUAN.
+Viens, Maraut, viens, je te veux bien faire toucher au
+doigt ta poltronnerie, prends garde. Le Seigneur Commandeur
+voudroit-il venir souper avec moy ?
+
+(La Statuë baisse encore la teste.)
+
+SGANARELLE.
+Je ne voudrois pas en tenir dix pistolles. Et bien,
+Monsieur ?
+
+D. JUAN.
+Allons, sortons d'icy.
+
+SGANARELLE.
+Voila de mes esprits forts qui ne veulent rien croire.
+
+
+ACTE IV
+-----------
+
+
+SCÈNE PREMIERE - D. JUAN, SGANARELLE.
+
+
+D. JUAN.
+Quoy qu'il en soit, laissons cela, c'est une bagatelle, et
+nous pouvons avoir esté trompez par un faux jour, ou surpris
+de quelque vapeur qui nous ait troublé la veuë.
+
+SGANARELLE.
+Eh, Monsieur, ne cherchez point à démentir ce que nous
+avons veu des yeux que voila. Il n'est rien de plus veritable
+que ce signe de teste, et je ne doute point que le Ciel
+scandalizé de vostre vie, n'ait produit ce miracle pour vous
+convaincre, et pour vous retirer de...
+
+D. JUAN.
+Ecoute. Si tu m'importunes davantage de tes sottes
+moralitez, si tu me dis encore le moindre mot là-dessus, je
+vais appeller quelqu'un, demander un nerf de boeuf, te
+faire tenir par trois ou quatre, et te roüer de mille coups.
+M'entens-tu bien ?
+
+SGANARELLE.
+Fort bien, Monsieur, le mieux du monde, vous vous
+expliquez clairement, c'est ce qu'il y a de bon en vous,
+que vous n'allez point chercher de détours, vous dites les
+choses avec une netteté admirable.
+
+D. JUAN.
+Allons, qu'on me fasse souper le plûtost que l'on pourra.
+Une chaise, petit garçon.
+
+
+SCÈNE II - D. JUAN, LA VIOLETTE, SGANARELLE.
+
+
+LA VIOLETTE.
+Monsieur, voila vostre Marchand, Monsieur Dimanche,
+qui demande à vous parler.
+
+SGANARELLE.
+Bon, voila ce qu'il nous faut qu'un compliment de
+creancier. De quoy s'avise-t-il de nous venir demander de
+l'argent, et que ne luy disois-tu que Monsieur n'y est pas ?
+
+LA VIOLETTE.
+Il y a trois quarts d'heure que je luy dis, mais il ne veut
+pas le croire, et s'est assis là-dedans pour attendre.
+
+SGANARELLE.
+Qu'il attende tant qu'il voudra.
+
+D. JUAN.
+Non, au contraire, faites-le entrer, c'est une fort mauvaise
+politique que de se faire celer aux creanciers. Il est
+bon de les payer de quelque chose, et j'ay le secret de les
+renvoyer satisfaits sans leur donner un double.
+
+
+SCÈNE III - D. JUAN, Mr DIMANCHE, SGANARELLE, Suite.
+
+
+D. JUAN faisant de grandes civilitez.
+Ah, Monsieur Dimanche, approchez. Que je suis ravy
+de vous voir, et que je veux de mal à mes gens de ne vous
+pas faire entrer d'abord ! J'avois donné ordre qu'on ne
+me fist parler personne, mais cét ordre n'est pas pour vous,
+et vous estes en droit de ne trouver jamais de porte fermée
+chez moy.
+
+Mr DIMANCHE.
+Monsieur, je vous suis fort obligé.
+
+D. JUAN parlant à ses Laquais.
+Parbleu, coquins, je vous apprendray à laisser Monsieur
+Dimanche dans une antichambre, et je vous feray connoistre
+les gens.
+
+Mr DIMANCHE.
+Monsieur, cela n'est rien.
+
+D. JUAN.
+Comment ? vous dire que je n'y suis pas, à Monsieur
+Dimanche, au meilleur de mes amis ?
+
+Mr DIMANCHE.
+Monsieur, je suis vostre serviteur. J'estois venu...
+
+D. JUAN.
+Allons, viste, un siege pour Monsieur Dimanche.
+
+Mr DIMANCHE.
+Monsieur, je suis bien comme cela.
+
+D. JUAN.
+Point, point, je veux que vous soyez assis contre moy.
+
+Mr DIMANCHE.
+Cela n'est point necessaire.
+
+D. JUAN.
+Ostez ce pliant, et apportez un fauteüil.
+
+Mr DIMANCHE.
+Monsieur, vous vous moquez, et...
+
+D. JUAN.
+Non, non, je sçay ce que je vous doy, et je ne veux point
+qu'on mette de difference entre nous deux.
+
+Mr DIMANCHE.
+Monsieur...
+
+D. JUAN.
+Allons, asseyez-vous.
+
+Mr DIMANCHE.
+Il n'est pas besoin, Monsieur, et je n'ay qu'un mot à
+vous dire. J'estois...
+
+D. JUAN.
+Mettez-vous là, vous dis-je.
+
+Mr DIMANCHE.
+Non, Monsieur, je suis bien, je viens pour...
+
+D. JUAN.
+Non, je ne vous écoute point si vous n'estes assis.
+
+Mr DIMANCHE.
+Monsieur, je fais ce que vous voulez. Je...
+
+D. JUAN.
+Parbleu, Monsieur Dimanche, vous vous portez bien.
+
+Mr DIMANCHE.
+Oüy, Monsieur, pour vous rendre service. Je suis venu...
+
+D. JUAN.
+Vous avez un fonds de santé admirable, des levres
+fraisches, un teint vermeil, et des yeux vifs.
+
+Mr DIMANCHE.
+Je voudrois bien...
+
+D. JUAN.
+Comment se porte Madame Dimanche, vostre Epouse ?
+
+Mr DIMANCHE.
+Fort bien, Monsieur, Dieu mercy.
+
+D. JUAN.
+C'est une brave femme.
+
+Mr DIMANCHE.
+Elle est vostre servante, Monsieur. Je venois...
+
+D. JUAN.
+Et vostre petite fille Claudine, comment se porte-t-elle ?
+
+Mr DIMANCHE.
+Le mieux du monde.
+
+D. JUAN.
+La jolie petite fille que c'est ! je l'aime de tout mon coeur.
+
+Mr DIMANCHE.
+C'est trop d'honneur que vous luy faites, Monsieur. Je
+vous...
+
+D. JUAN.
+Et le petit Colin fait-il toûjours bien du bruit avec son
+tambour ?
+
+Mr DIMANCHE.
+Toûjours de mesme, Monsieur. Je...
+
+D. JUAN.
+Et vostre petit chien Brusquet ? gronde-t-il toûjours
+aussi fort, et mord-il toûjours bien aux jambes les gens qui
+vont chez vous ?
+
+Mr DIMANCHE.
+Plus que jamais, Monsieur, et nous ne sçaurions en
+chevir.
+
+D. JUAN.
+Ne vous estonnez pas si je m'informe des nouvelles de
+toute la famille, car j'y prends beaucoup d'interest.
+
+Mr DIMANCHE.
+Nous vous sommes, Monsieur, infiniment obligez. Je...
+
+D. JUAN lui tendant la main.
+Touchez donc là, Monsieur Dimanche. Estes-vous bien
+de mes amis ?
+
+Mr DIMANCHE.
+Monsieur, je suis vostre serviteur.
+
+D. JUAN.
+Parbleu, je suis à vous de tout mon coeur.
+
+Mr DIMANCHE.
+Vous m'honorez trop. Je...
+
+D. JUAN.
+Il n'y a rien que je ne fisse pour vous.
+
+Mr DIMANCHE.
+Monsieur, vous avez trop de bonté pour moy.
+
+D. JUAN.
+Et cela sans interest, je vous prie de le croire.
+
+Mr DIMANCHE.
+Je n'ay point merité cette grace assurément, mais,
+Monsieur...
+
+D. JUAN.
+Oh çà, Monsieur Dimanche, sans façon, voulez-vous
+souper avec moy ?
+
+Mr DIMANCHE.
+Non, Monsieur, il faut que je m'en retourne tout à
+l'heure. Je...
+
+D. JUAN se levant.
+Allons, viste un flambeau pour conduire Monsieur Dimanche,
+et que quatre ou cinq de mes gens prennent des
+mousquetons pour l'escorter.
+
+Mr DIMANCHE se levant de mesme.
+Monsieur, il n'est pas necessaire, et je m'en iray bien
+tout seul. Mais...
+                
+Sganarelle oste les sieges promptement.
+
+D. JUAN.
+Comment ? je veux qu'on vous escorte, et je m'interesse
+trop à vostre personne, je suis vostre serviteur, et de plus
+vostre debiteur.
+
+Mr DIMANCHE.
+Ah, Monsieur...
+
+D. JUAN.
+C'est une chose que je ne cache pas, et je le dis à tout le
+monde.
+
+Mr DIMANCHE.
+Si...
+
+D. JUAN.
+Voulez-vous que je vous reconduise ?
+
+Mr DIMANCHE.
+Ah, Monsieur, vous vous moquez. Monsieur...
+
+D. JUAN.
+Embrassez-moy donc, s'il vous plaist, je vous prie encore
+une fois d'estre persuadé que je suis tout à vous, et qu'il
+n'y a rien au monde que je ne fisse pour vostre service.
+
+(Il sort.)
+
+SGANARELLE.
+Il faut avoüer que vous avez en Monsieur un homme qui
+vous aime bien.
+
+Mr DIMANCHE.
+Il est vray, il me fait tant de civilitez et tant de complimens
+que je ne sçaurois jamais luy demander de l'argent.
+
+SGANARELLE.
+Je vous assure que toute sa maison periroit pour vous,
+et je voudrois qu'il vous arrivast quelque chose, que quelqu'un
+s'avisast de vous donner des coups de baston, vous
+verriez de quelle maniere...
+
+Mr DIMANCHE.
+Je le croy, mais, Sganarelle, je vous prie de luy dire un
+petit mot de mon argent.
+
+SGANARELLE.
+Oh, ne vous mettez pas en peine. Il vous payera le mieux
+du monde.
+
+Mr DIMANCHE.
+Mais vous, Sganarelle, vous me devez quelque chose en
+vostre particulier.
+
+SGANARELLE.
+Fy, ne parlez pas de cela.
+
+Mr DIMANCHE.
+Comment ? je...
+
+SGANARELLE.
+Ne sçais-je pas bien que je vous dois.
+
+Mr DIMANCHE.
+Oüy, mais...
+
+SGANARELLE.
+Allons, Monsieur Dimanche, je vais vous éclairer.
+
+Mr DIMANCHE.
+Mais mon argent...
+
+SGANARELLE prenant Monsieur Dimanche par le bras.
+Vous moquez-vous ?
+
+Mr DIMANCHE.
+Je veux...
+
+SGANARELLE le tirant.
+Eh.
+
+Mr DIMANCHE.
+J'entends...
+
+SGANARELLE le poussant.
+Bagatelles.
+
+Mr DIMANCHE.
+Mais...
+
+SGANARELLE le poussant.
+Fy.
+
+Mr DIMANCHE.
+Je...
+
+SGANARELLE le poussant tout à fait hors du Theatre.
+Fy, vous dis-je.
+
+
+SCÈNE IV- D. LOUIS, D. JUAN, LA VIOLETTE, SGANARELLE.
+
+
+LA VIOLETTE.
+Monsieur, voila Monsieur vostre pere.
+
+D. JUAN.
+Ah, me voicy bien, il me falloit cette visite pour me
+faire enrager.
+
+D. LOUIS.
+Je vois bien que je vous embarasse, et que vous vous
+passeriez fort aisement de ma venuë. A dire vray, nous nous
+incommodons estrangement l'un et l'autre, et si vous
+estes las de me voir, je suis bien las aussi de vos déportemens.
+Helas, que nous sçavons peu ce que nous faisons,
+quand nous ne laissons pas au Ciel le soin des choses qu'il
+nous faut, quand nous voulons estre plus avisez que luy,
+et que nous venons à l'importuner par nos souhaits
+aveugles, et nos demandes inconsiderées ! J'ay souhaité un
+fils avec des ardeurs nompareilles, je l'ay demandé sans
+relasche avec des transports incroyables, et ce fils que
+j'obtiens, en fatiguant le Ciel de voeux, est le chagrin et le
+supplice de cette vie mesme dont je croyois qu'il devoit
+estre la joie et la consolation. De quel oeil, à vostre avis,
+pensez-vous que je puisse voir cét amas d'actions indignes
+dont on a peine aux yeux du monde d'adoucir le mauvais
+visage, cette suite continuelle de méchantes affaires, qui
+nous reduisent à toutes heures à lasser les bontez du Souverain,
+et qui ont épuisé auprés de luy le merite de mes
+services, et le credit de mes amis ? ah, quelle bassesse est
+la vostre ! ne rougissez-vous point de meriter si peu vostre
+naissance ? estes-vous en droit, dites-moy, d'en tirer
+quelque vanité ? Et qu'avez-vous fait dans le monde pour
+estre Gentilhomme ? croyez-vous qu'il suffise d'en porter
+le nom et les armes, et que ce nous soit une gloire d'estre
+sorty d'un sang noble, lors que nous vivons en infames ?
+non, non, la naissance n'est rien où la vertu n'est pas.
+Aussi nous n'avons part à la gloire de nos Ancestres, qu'autant
+que nous nous efforçons de leur ressembler, et cét
+éclat de leurs actions qu'ils répandent sur nous, nous impose
+un engagement de leur faire le mesme honneur, de
+suivre les pas qu'ils nous tracent, et de ne point degenerer
+de leurs vertus, si nous voulons estre estimez leurs veritables
+descendans. Ainsi vous descendez en vain des
+Ayeux dont vous estes né, ils vous desavoüent pour leur
+sang, et tout ce qu'ils ont fait d'illustre ne vous donne
+aucun avantage, au contraire, l'éclat n'en rejallit sur vous
+qu'à vostre deshonneur, et leur gloire est un flambeau qui
+éclaire aux yeux d'un chacun la honte de vos actions. Apprenez
+enfin qu'un Gentilhomme qui vit mal, est un
+monstre dans la nature, que la vertu est le premier titre
+de Noblesse, que je regarde bien moins au nom qu'on
+signe, qu'aux actions qu'on fait, et que je ferois plus d'estat
+du fils d'un Crocheteur, qui seroit honneste homme, que
+du fils d'un Monarque qui vivroit comme vous.
+
+D. JUAN.
+Monsieur, si vous estiez assis, vous en seriez mieux
+pour parler.
+
+D. LOUIS.
+Non, insolent, je ne veux point m'asseoir, ny parler
+davantage, et je vois bien que toutes mes paroles ne font
+rien sur ton ame ; mais sçache, fils indigne, que la tendresse
+paternelle est poussée à bout par tes actions, que je
+sçauray, plustost que tu ne penses, mettre une borne à
+tes déreglemens, prevenir sur toy le courroux du Ciel, et
+laver par ta punition la honte de t'avoir fait naistre.
+
+(Il sort.)
+
+
+SCÈNE V - D. JUAN, SGANARELLE.
+
+
+D. JUAN.
+Eh, mourez le plûtost que vous pourrez, c'est le mieux
+que vous puissiez faire. Il faut que chacun ait son tour, et
+j'enrage de voir des peres qui vivent autant que leurs fils.
+
+(Il se met dans son fauteüil.)
+
+SGANARELLE.
+Ah, Monsieur, vous avez tort.
+
+D. JUAN.
+J'ay tort ?
+
+SGANARELLE.
+Monsieur...
+
+D. JUAN se leve de son siege.
+J'ay tort ?
+
+SGANARELLE.
+Oüy, Monsieur, vous avez tort d'avoir souffert ce qu'il
+vous a dit, et vous le deviez mettre dehors par les épaules.
+A-t-on jamais rien veu de plus impertinent ? un pere venir
+faire des remontrances à son fils, et luy dire de corriger
+ses actions, de se ressouvenir de sa naissance, de mener une
+vie d'honneste homme, et cent autres sottises de pareille
+nature. Cela se peut-il souffrir à un homme comme vous,
+qui sçavez comme il faut vivre ? J'admire votre patience, et
+si j'avois esté en vostre place, je l'aurois envoyé promener.
+O complaisance maudite, à quoy me reduis-tu !
+
+D. JUAN.
+Me fera-t-on souper bien-tost ?
+
+
+SCÈNE VI - D. JUAN, D. ELVIRE, RAGOTIN, SGANARELLE.
+
+
+RAGOTIN.
+Monsieur, voicy une Dame voilée qui vient vous parler.
+
+D. JUAN.
+Que pourroit-ce estre ?
+
+SGANARELLE.
+Il faut voir.
+
+D. ELVIRE.
+Ne soyez point surpris, D. Juan, de me voir à cette
+heure et dans cét équipage. C'est un motif pressant qui
+m'oblige à cette visite, et ce que j'ay à vous dire ne veut
+point du tout de retardement. Je ne viens point icy pleine
+de ce couroux que j'ay tantost fait éclater, et vous me
+voyez bien changée de ce que j'estois ce matin. Ce n'est
+plus cette D. Elvire qui faisoit des voeux contre vous, et
+dont l'ame irritée ne jettoit que menaces, et ne respiroit
+que vangeance. Le Ciel a banny de mon ame toutes ces
+indignes ardeurs que je sentois pour vous, tous ces transports
+tumultueux d'un attachement criminel, tous ces
+honteux emportemens d'un amour terrestre et grossier, et
+il n'a laissé dans mon coeur pour vous qu'une flâme épurée
+de tout le commerce des sens, une tendresse toute sainte,
+un amour détaché de tout, qui n'agit point pour soy, et ne
+se met en peine que de vostre interest.
+
+D. JUAN à Sganarelle.
+Tu pleures, je pense.
+
+SGANARELLE.
+Pardonnez-moy.
+
+D. ELVIRE.
+C'est ce parfait et pur amour qui me conduit icy pour
+vostre bien, pour vous faire part d'un avis du Ciel, et
+tâcher de vous retirer du precipice où vous courez. Oüy,
+D. Juan, je sçay tous les déreglemens de vostre vie, et ce
+mesme Ciel qui m'a touché le coeur, et fait jetter les yeux
+sur les égaremens de ma conduite, m'a inspiré de vous
+venir trouver, et de vous dire de sa part que vos offences
+ont épuisé sa misericorde, que sa colere redoutable est
+preste de tomber sur vous, qu'il est en vous de l'éviter
+par un prompt repentir, et que peut-estre vous n'avez
+pas encore un jour à vous pouvoir soustraire au plus grand
+de tous les malheurs. Pour moy, je ne tiens plus à vous par
+aucun attachement du monde. Je suis revenuë, graces au
+Ciel, de toutes mes foles pensées, ma retraite est resoluë, et
+je ne demande qu'assez de vie pour pouvoir expier la faute
+que j'ay faite, et meriter par une austere penitence le pardon
+de l'aveuglement où m'ont plongée les transports
+d'une passion condamnable ; mais dans cette retraite,
+j'aurois une douleur extrême qu'une personne que j'ay
+cherie tendrement, devînt un exemple funeste de la Justice
+du Ciel, et ce me sera une joye incroyable, si je puis
+vous porter à détourner de dessus vostre teste l'épouvantable
+coup qui vous menace. De grace, D. Juan, accordez-moy
+pour derniere faveur cette douce consolation, ne me
+refusez point vostre salut, que je vous demande avec
+larmes, et si vous n'estes point touché de vostre interest,
+soyez-le au moins de mes prieres, et m'épargnez le cruel
+déplaisir de vous voir condamner à des supplices éternels.
+
+SGANARELLE.
+Pauvre femme !
+
+D. ELVIRE.
+Je vous ay aimé avec une tendresse extréme, rien au
+monde ne m'a esté si cher que vous, j'ay oublié mon devoir
+pour vous, j'ay fait toutes choses pour vous, et toute la
+recompense que je vous en demande, c'est de corriger
+vostre vie, et de prevenir vostre perte. Sauvez-vous, je
+vous prie, ou pour l'amour de vous, ou pour l'amour de
+moy. Encore une fois, D. Juan, je vous le demande avec
+larmes, et si ce n'est assez des larmes d'une personne que
+vous avez aimée, je vous en conjure par tout ce qui est le
+plus capable de vous toucher.
+
+SGANARELLE.
+Coeur de tigre !
+
+D. ELVIRE.
+Je m'en vais aprés ce discours, et voila tout ce que
+j'avois à vous dire.
+
+D. JUAN.
+Madame, il est tard, demeurez icy, on vous y logera le
+mieux qu'on pourra.
+
+D. ELVIRE.
+Non, D. Juan, ne me retenez pas davantage.
+
+D. JUAN.
+Madame, vous me ferez plaisir de demeurer, je vous
+assure.
+
+D. ELVIRE.
+Non, vous dis-je, ne perdons point de temps en discours
+superflus, laissez-moy viste aller, ne faites aucune
+instance pour me conduire, et songez seulement à profiter
+de mon avis.
+
+
+SCÈNE VII - D. JUAN, SGANARELLE, Suite.
+
+
+D. JUAN.
+Sçais-tu bien que j'ay encore senty quelque peu d'émotion
+pour elle, que j'ay trouvé de l'agrément dans cette
+nouveauté bizarre, et que son habit negligé, son air languissant,
+et ses larmes ont réveillé en moy quelques petits
+restes d'un feu éteint.
+
+SGANARELLE.
+C'est à dire que ses paroles n'ont fait aucun effet sur
+vous.
+
+D. JUAN.
+Viste à souper.
+
+SGANARELLE.
+Fort bien.
+
+D. JUAN se mettant à table.
+Sganarelle, il faut songer à s'amender pourtant.
+
+SGANARELLE.
+Oüy dea.
+
+D. JUAN.
+Oüy, ma foy, il faut s'amender, encore vingt ou trente
+ans de cette vie cy, et puis nous songerons à nous.
+
+SGANARELLE.
+Oh.
+
+D. JUAN.
+Qu'en dis-tu ?
+
+SGANARELLE.
+Rien, voila le soupé.
+
+(Il prend un morceau d'un des plats qu'on apporte, et le met dans sa bouche.)
+
+D. JUAN.
+Il me semble que tu as la joüe enflée, qu'est-ce que
+c'est ? parle donc, qu'as-tu là ?
+
+SGANARELLE.
+Rien.
+
+D. JUAN.
+Montre un peu, parbleu c'est une fluxion qui luy est
+tombée sur la joüe, viste une lancette pour percer cela. Le
+pauvre garçon n'en peut plus, et cét abcez le pourroit
+étouffer, attends, voyez comme il estoit meur. Ah, coquin
+que vous estes.
+
+SGANARELLE.
+Ma foy, Monsieur, je voulois voir si vostre Cuisinier
+n'avoit point mis trop de sel, ou trop de poivre.
+
+D. JUAN.
+Allons, mets-toy là, et mange. J'ay affaire de toy quand
+j'auray soupé, tu as faim à ce que je voy ?
+
+SGANARELLE se met à table.
+Je le croy bien, Monsieur, je n'ay point mangé depuis
+ce matin. Tastez de cela, voila qui est le meilleur du
+monde.
+
+(Un laquais oste les assiettes de Sganarelle d'abord qu'il y a dessus à manger.)
+
+Mon assiette, mon assiette. Tout doux, s'il vous plaist.
+Vertubleu, petit Compere, que vous estes habile à donner
+des assiettes nettes, et vous, petit la Violette, que vous
+sçavez presenter à boire à propos.
+
+(Pendant qu'un laquais donne à boire à Sganarelle, l'autre laquais oste encore son
+ assiette.)
+
+D. JUAN.
+Qui peut fraper de cette sorte ?
+
+SGANARELLE.
+Qui diable nous vient troubler dans nostre repas ?
+
+D. JUAN.
+Je veux souper en repos au moins, et qu'on ne laisse
+entrer personne.
+
+SGANARELLE.
+Laissez-moy faire, je m'y en vais moy-mesme.
+
+D. JUAN.
+Qu'est-ce donc ? qu'y a-t-il ?
+
+SGANARELLE baissant la teste comme a fait la Statuë.
+Le... qui est là !
+
+D. JUAN.
+Allons voir, et montrons que rien ne me sçauroit
+ébranler.
+
+SGANARELLE.
+Ah, pauvre Sganarelle, où te cacheras-tu ?
+
+
+SCÈNE VIII - D. JUAN, LA STATUE DU COMMANDEUR
+qui vient se mettre à table, SGANARELLE, Suite.
+
+D. JUAN.
+Une chaise et un couvert, viste donc !
+(A Sganarelle.)
+Allons, mets-toy à table.
+
+SGANARELLE.
+Monsieur, je n'ay plus de faim.
+
+D. JUAN.
+Mets-toy là, te dis-je. A boire. A la santé du Commandeur,
+je te la porte, Sganarelle. Qu'on luy donne du vin.
+
+SGANARELLE.
+Monsieur, je n'ay pas soif.
+
+D. JUAN.
+Bois et chante ta chanson pour regaler le Commandeur.
+
+SGANARELLE.
+Je suis enrumé, Monsieur.
+
+D. JUAN.
+Il n'importe, allons. Vous autres venez, accompagnez
+sa voix.
+
+LA STATUE.
+D. Juan, c'est assez, je vous invite à venir demain souper
+avec moy, en aurez-vous le courage ?
+
+D. JUAN.
+Oüy, j'iray accompagné du seul Sganarelle.
+
+SGANARELLE.
+Je vous rends grace, il est demain jeusne pour moy.
+
+D. JUAN à Sganarelle.
+Prends ce flambeau.
+
+LA STATUE.
+On n'a pas besoin de lumiere, quand on est conduit par
+le Ciel.
+
+
+ACTE V
+----------
+
+
+SCÈNE PREMIERE - D. LOUIS, D. JUAN, SGANARELLE.
+
+
+D. LOUIS.
+Quoy, mon fils, seroit-il possible que la bonté du Ciel
+eust exaucé mes voeux ? Ce que vous me dites est-il bien
+vray ? ne m'abusez-vous point d'un faux espoir, et puis-je
+prendre quelque assurance sur la nouveauté surprenante
+d'une telle conversion ?
+
+D. JUAN faisant l'hipocrite.
+Oüy, vous me voyez revenu de toutes mes erreurs, je
+ne suis plus le mesme d'hier au soir, et le Ciel tout d'un
+coup a fait en moy un changement qui va surprendre tout
+le monde. Il a touché mon ame, et dessillé mes yeux, et je
+regarde avec horreur le long aveuglement où j'ay esté et
+les désordres criminels de la vie que j'ay menée. J'en
+repasse dans mon esprit toutes les abominations, et m'estonne
+comme le Ciel les a pû souffrir si long-temps et
+n'a pas vingt fois sur ma teste laissé tomber les coups de sa
+Justice redoutable. Je voy les graces que sa bonté m'a
+faites en ne me punissant point de mes crimes, et je pretends
+en profiter comme je doy, faire éclater aux yeux du
+monde un soudain changement de vie, reparer par là le
+scandale de mes actions passées, et m'efforcer d'en obtenir
+du Ciel une pleine remission. C'est à quoy je vais travailler,
+et je vous prie, Monsieur, de vouloir bien contribuer à
+ce dessein, et de m'aider vous mesme à faire choix d'une
+personne qui me serve de guide, et sous la conduite de qui
+je puisse marcher seurement dans le chemin où je m'en
+vais entrer.
+
+D. LOUIS.
+Ah, mon fils, que la tendresse d'un pere est aisément
+rappellée, et que les offences d'un fils s'évanoüissent viste
+au moindre mot de repentir ! Je ne me souviens plus déja
+de tous les déplaisirs que vous m'avez donnez, et tout est
+effacé par les paroles que vous venez de me faire entendre.
+Je ne me sens pas, je l'avoüe, je jette des larmes de joye,
+tous mes voeux sont satisfaits, et je n'ay plus rien desormais
+à demander au Ciel. Embrassez-moy, mon fils, et
+persistez, je vous conjure, dans cette loüable pensée.
+Pour moy, j'en vais tout de ce pas porter l'heureuse nouvelle
+à vostre mere, partager avec elle les doux transports
+du ravissement où je suis, et rendre grace au Ciel des
+saintes resolutions qu'il a daigné vous inspirer.
+
+
+SCÈNE II - D. JUAN, SGANARELLE.
+
+
+SGANARELLE.
+Ah, Monsieur, que j'ay de joye de vous voir converty !
+il y a long-temps que j'attendois cela, et voila, grace au
+Ciel, tous mes souhaits accomplis.
+
+D. JUAN.
+La peste le benest.
+
+SGANARELLE.
+Comment, le benest ?
+
+D. JUAN.
+Quoy ? tu prends pour de bon argent ce que je viens
+de dire, et tu crois que ma bouche estoit d'accord avec
+mon coeur ?
+
+SGANARELLE.
+Quoy, ce n'est pas... vous ne... vostre... oh quel homme !
+quel homme ! quel homme !
+
+D. JUAN.
+Non, non, je ne suis point changé, et mes sentimens
+sont toûjours les mesmes.
+
+SGANARELLE.
+Vous ne vous rendez pas à la surprenante merveille de
+cette Statuë mouvante et parlante ?
+
+D. JUAN.
+Il y a bien quelque chose là-dedans que je ne comprends
+pas, mais quoy que ce puisse estre, cela n'est pas capable,
+ny de convaincre mon esprit, ny d'ébranler mon ame, et
+si j'ay dit que je voulois corriger ma conduite, et me jetter
+dans un train de vie exemplaire, c'est un dessein que j'ay
+formé par pure politique, un stratageme utile, une grimace
+necessaire, où je veux me contraindre pour ménager un
+pere dont j'ay besoin, et me mettre à couvert du costé des
+hommes de cent fâcheuses avantures qui pourroient m'arriver.
+Je veux bien, Sganarelle, t'en faire confidence, et je
+suis bien-aise d'avoir un témoin du fond de mon ame et
+des veritables motifs qui m'obligent à faire les choses.
+
+SGANARELLE.
+Quoy ? vous ne croyez rien du tout, et vous voulez
+cependant vous eriger en homme de bien ?
+
+D. JUAN.
+Et pourquoy non ? il y en a tant d'autres comme moy
+qui se mélent de ce métier, et qui se servent du mesme
+masque pour abuser le monde.
+
+SGANARELLE.
+Ah, quel homme ! quel homme !
+
+D. JUAN.
+Il n'y a plus de honte maintenant à cela, l'Hipocrisie est
+un vice à la mode, et tous les vices à la mode passent pour
+vertus, le personnage d'homme de bien est le meilleur de
+tous les personnages qu'on puisse joüer aujourd'hui, et la
+profession d Hipocrite a de merveilleux avantages. C'est
+un art de qui l'imposture est toûjours respectée, et quoy
+qu'on la découvre, on n'ose rien dire contr'elle. Tous les
+autres vices des hommes sont exposez à la censure, et chacun
+a la liberté de les attaquer hautement, mais l'Hipocrisie
+est un vice privilegié, qui de sa main ferme la bouche
+à tout le monde, et joüit en repos d'une impunité souveraine.
+On lie à force de grimaces une société étroite avec
+tous les gens du party ; qui en choque un, se les attire
+tous sur les bras, et ceux que l'on sçait mesme agir de
+bonne foy là-dessus, et que chacun connoist pour être
+veritablement touchez : ceux-là, dis-je, sont toûjours les
+dupes des autres, ils donnent hautement dans le panneau
+des grimaciers, et appuyent aveuglément les singes de
+leurs actions. Combien crois-tu que j'en connoisse, qui
+par ce stratageme ont rhabillé adroitement les desordres
+de leur jeunesse, qui se sont fait un bouclier du manteau
+de la religion, et sous cet habit respecté, ont la permission
+d'estre les plus méchans hommes du monde ? on a beau
+sçavoir leurs intrigues, et les connoistre pour ce qu'ils
+sont, ils ne laissent pas pour cela d'estre en credit parmy
+les gens, et quelque baissement de teste, un soûpir mortifié,
+et deux roulemens d'yeux rajustent dans le monde
+tout ce qu'ils peuvent faire. C'est sous cét abry favorable
+que je veux me sauver et mettre en seureté mes affaires.
+Je ne quitteray point mes douces habitudes, mais j'auray
+soin de me cacher, et me divertiray à petit bruit. Que si je
+viens à estre découvert, je verray sans me remuer prendre
+mes interests à toute la cabale, et je seray défendu par
+elle envers, et contre tous. Enfin, c'est là le vray moyen
+de faire impunément tout ce que je voudray. Je m'érigeray
+en censeur des actions d'autruy, jugeray mal de tout
+le monde, et n'auray bonne opinion que de moy. Dés
+qu'une fois on m'aura choqué tant soit peu, je ne pardonneray
+jamais, et garderay tout doucement une haine irreconciliable.
+Je feray le vangeur des interêts du Ciel, et
+sous ce pretexte commode, je pousseray mes Ennemis, je
+les accuseray d'impieté, et sçauray déchaîner contr'eux
+des zelez indiscrets, qui sans connoissance de cause crieront
+en public contr'eux, qui les accableront d'injures,
+et les damneront hautement de leur authorité privée.
+C'est ainsi qu'il faut profiter des foiblesses des hommes,
+et qu'un sage esprit s'accommode aux vices de son
+siecle.
+
+SGANARELLE.
+O Ciel ! qu'entends-je icy ? il ne vous manquoit plus que
+d'estre Hipocrite pour vous achever de tout point, et voila
+le comble des abominations. Monsieur, cette derniere cy
+m'emporte, et je ne puis m'empescher de parler. Faites
+moy tout ce qu'il vous plaira, batez-moy, assommez-moy
+de coups, tuez-moy, si vous voulez, il faut que je décharge
+mon coeur, et qu'en Valet fidele je vous dise ce que je dois.
+Sçachez, Monsieur, que tant va la cruche à l'eau, qu'enfin
+elle se brise : et comme dit fort bien cét Auteur que je ne
+connois pas, l'homme est en ce monde ainsi que l'oiseau
+sur la branche, la branche est attachée à l'arbre, qui s'attache
+à l'arbre suit de bons preceptes, les bons preceptes
+valent mieux que les belles paroles, les belles paroles se
+trouvent à la Cour. A la Cour sont les Courtisans, les
+Courtisans suivent la mode, la mode vient de la fantaisie,
+la fantaisie est une faculté de l'ame, l'ame est ce qui nous
+donne la vie, la vie finit par la mort, la mort nous fait
+penser au Ciel, le Ciel est au dessus de la terre, la terre
+n'est point la mer, la mer est sujette aux orages, les orages
+tourmentent les vaisseaux, les vaisseaux ont besoin d'un
+bon pilote, un bon pilote a de la prudence, la prudence
+n'est point dans les jeunes gens, les jeunes gens doivent
+obeïssance aux vieux, les vieux ayment les richesses, les
+richesses font les riches, les riches ne sont pas pauvres,
+les pauvres ont de la necessité, necessité n'a point de loy,
+qui n'a point de loy vit en bête brute, et par consequent
+vous serez damné à tous les Diables.
+
+D. JUAN.
+O le beau raisonnement !
+
+SGANARELLE.
+Aprés cela, si vous ne vous rendez, tant pis pour vous.
+
+
+SCÈNE III - D. CARLOS, D. JUAN, SGANARELLE.
+
+
+D. CARLOS.
+Dom Juan, je vous trouve à propos, et suis bien aise de
+vous parler icy plûtost que chez vous, pour vous demander
+vos resolutions. Vous sçavez que ce soin me regarde, et
+que je me suis en vostre presence chargé de cette affaire.
+Pour moy, je ne le cele point, je souhaite fort que les choses
+aillent dans la douceur, et il n'y a rien que je ne fasse pour
+porter vostre esprit à vouloir prendre cette voye, et pour
+vous voir publiquement confirmer à ma soeur le nom de
+vostre femme.
+
+D. JUAN d'un ton hipocrite.
+Helas ! je voudrois bien de tout mon coeur vous donner
+la satisfaction que vous souhaitez, mais le Ciel s'y oppose
+directement, il a inspiré à mon ame le dessein de changer
+de vie, et je n'ay point d'autres pensées maintenant que de
+quitter entierement tous les attachemens du monde, de
+me dépoüiller au plûtost de toutes sortes de vanitez, et de
+corriger desormais par une austere conduite tous les déreglemens
+criminels où m'a porté le feu d'une aveugle jeunesse.
+
+D. CARLOS.
+Ce dessein, D. Juan, ne choque point ce que je dis, et la
+compagnie d'une femme legitime peut bien s'accommoder
+avec les loüables pensées que le Ciel vous inspire.
+
+D. JUAN.
+Helas point du tout, c'est un dessein que vostre soeur
+elle-mesme a pris, elle a resolu sa retraite, et nous avons
+esté touchez tous deux en mesme temps.
+
+D. CARLOS.
+Sa retraite ne peut nous satisfaire, pouvant estre imputée
+au mépris que vous feriez d'elle et de nôtre famille,
+et nostre honneur demande qu'elle vive avec vous.
+
+D. JUAN.
+Je vous assure que cela ne se peut, j'en avois pour moy
+toutes les envies du monde, et je me suis mesme encore
+aujourd'huy conseillé au Ciel pour cela ; mais lors que je
+l'ay consulté, j'ay entendu une voix qui m'a dit que je ne
+devois point songer à vostre soeur, et qu'avec elle assurément
+je ne ferois point mon salut.
+
+D. CARLOS.
+Croyez-vous, D. Juan, nous ébloüir par ces belles
+excuses ?
+
+D. JUAN.
+J'obeïs à la voix du Ciel.
+
+D. CARLOS.
+Quoy vous voulez que je me paye d'un semblable discours ?
+
+D. JUAN.
+C'est le Ciel qui le veut ainsi.
+
+D. CARLOS.
+Vous aurez fait sortir ma soeur d'un Convent pour la
+laisser ensuite ?
+
+D. JUAN.
+Le Ciel l'ordonne de la sorte.
+
+D. CARLOS.
+Nous souffrirons cette tache en nostre famille ?
+
+D. JUAN.
+Prenez-vous-en au Ciel.
+
+D. CARLOS.
+Et quoy toûjours le Ciel ?
+
+D. JUAN.
+Le Ciel le souhaite comme cela.
+
+D. CARLOS.
+Il suffit, D. Juan, je vous entends, ce n'est pas icy que je
+veux vous prendre, et le lieu ne le souffre pas ; mais avant
+qu'il soit peu, je sçauray vous trouver.
+
+D. JUAN.
+Vous ferez ce que vous voudrez, vous sçavez que je ne
+manque point de coeur, et que je sçay me servir de mon
+épée quand il le faut, je m'en vais passer tout à l'heure
+dans cette petite ruë écartée qui mene au grand Convent,
+mais je vous declare pour moy, que ce n'est point moy qui
+me veux battre, le Ciel m'en défend la pensée, et si vous
+m'attaquez, nous verrons ce qui en arrivera.
+
+D. CARLOS.
+Nous verrons, de vray, nous verrons.
+
+
+SCÈNE IV - D. JUAN, SGANARELLE.
+
+
+SGANARELLE.
+Monsieur, quel diable de stile prenez-vous là ? cecy est
+bien pis que le reste, et je vous aimerois bien mieux encore
+comme vous estiez auparavant, j'esperois toûjours de
+vostre salut, mais c'est maintenant que j'en desespere, et
+je croy que le Ciel qui vous a souffert jusques icy, ne pourra
+souffrir du tout cette derniere horreur.
+
+D. JUAN.
+Va, va, le Ciel n'est pas si exact que tu penses, et si
+toutes les fois que les hommes...
+
+SGANARELLE.
+Ah, Monsieur, c'est le Ciel qui vous parle, et c'est un
+avis qu'il vous donne.
+
+D. JUAN.
+Si le Ciel me donne un avis, il faut qu'il parle un peu
+plus clairement, s'il veut que je l'entende.
+
+SCÈNE V.
+
+D. JUAN, UN SPECTRE en femme voilée,
+SGANARELLE.
+
+LE SPECTRE.
+Dom Juan n'a plus qu'un moment à pouvoir profiter de
+la misericorde du Ciel, et s'il ne se repent icy, sa perte est
+resoluë.
+
+SGANARELLE.
+Entendez-vous, Monsieur ?
+
+D. JUAN.
+Qui ose tenir ces paroles ? je croy connoistre cette voix.
+
+SGANARELLE.
+Ha, Monsieur, c'est un Spectre, je le reconnois au
+marcher.
+
+D. JUAN.
+Spectre, Fantosme, ou Diable, je veux voir ce que c'est.
+               
+Le Spectre change de figure, et représente
+                 le Temps avec sa faux à la main.
+
+SGANARELLE.
+O Ciel ! voyez-vous, Monsieur, ce changement de
+figure ?
+
+D. JUAN.
+Non, non, rien n'est capable de m'imprimer de la terreur,
+et je veux éprouver avec mon épée si c'est un corps
+ou un esprit.
+
+(Le Spectre s'envole dans le temps que D. Juan le veut fraper.)
+
+SGANARELLE.
+Ah, Monsieur, rendez-vous à tant de preuves, et jettez-vous
+viste dans le repentir.
+
+D. JUAN.
+Non, non, il ne sera pas dit, quoy qu'il arrive, que je
+sois capable de me repentir, allons, suis-moy.
+
+
+SCÈNE VI - LA STATUE, D. JUAN, SGANARELLE.
+
+
+LA STATUE.
+Arrestez, D. Juan, vous m'avez hier donné parole de
+venir manger avec moy.
+
+D. JUAN.
+Oüy, où faut-il aller ?
+
+LA STATUE.
+Donnez-moy la main.
+
+D. JUAN.
+La voila.
+
+LA STATUE.
+D. Juan, l'endurcissement au peché traîne une mort
+funeste, et les graces du Ciel que l'on renvoye, ouvrent un
+chemin à sa foudre.
+
+D. JUAN.
+O Ciel, que sens-je ? un feu invisible me brûle, je n'en
+puis plus, et tout mon corps devient un brasier ardent,
+ah !
+
+(Le tonnerre tombe avec un grand bruit et de grands éclairs sur D. Juan, la terre
+s'ouvre et l'abysme, et il sort de grands feux de l'endroit où il est tombé.)
+
+SGANARELLE.
+[Ah mes gages ! mes gages !] Voila par sa mort un chacun
+satisfait, Ciel offencé, Loix violées, filles seduites, familles
+deshonorées, parens outragez, femmes mises à mal, maris
+poussez à bout, tout le monde est content ; il n'y a que
+moy seul de malheureux, qui aprés tant d'années de service,
+n'ay point d'autre recompense que de voir à mes
+yeux l'impieté de mon Maître, punie par le plus épouvantable
+châtiment du monde. [Mes gages, mes gages, mes
+gages !]
+
+------------------------- FIN DU FICHIER domjuan2 --------------------------------
