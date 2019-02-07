@@ -19,18 +19,39 @@ import java.util.Locale;
 import static org.apache.spark.sql.functions.callUDF;
 import static org.apache.spark.sql.functions.col;
 
-/**
- * This class calculates several metrics for text data mining, as the number of words, sentences, words frequency, and more...
- */
+
 public class DataMetrics
 {
 
-
-    //private JavaSparkContext sc;
+    //private Dataset< Row > dataset;
+    private JavaSparkContext sc;
     private SparkSession spark;
 
     public DataMetrics()
     {
+    }
+
+    /**
+     * @param dataset, the dataset to process.
+     * @param colName, the name of the column containing the different classes/categories.
+     * @return the number of classes/categories.
+     */
+    public int classCount( Dataset< Row > dataset, String colName )
+    {
+        return ( int ) dataset.select( colName ).dropDuplicates().count();
+    }
+
+    /**
+     *
+     * @param dataset, the dataset to process.
+     * @param colName, the name of the column containing the different classes/categories.
+     * @param className, the name of the class of interest.
+     * @return
+     */
+    public int samplesClassCount(Dataset<Row> dataset,String colName, String className){
+
+        return (int) dataset.filter( col( colName).like(className) ).count();
+
     }
 
     /**
@@ -61,8 +82,16 @@ public class DataMetrics
                 .setPattern( "\\W" );  // alternatively .setPattern("\\w+").setGaps(false);
         Dataset< Row > regexTokenized = regexTokenizer.transform( dataset );
         spark.udf().register( "wordsCount", ( WrappedArray s ) -> wordsCount( s ), DataTypes.IntegerType );
-        return ( regexTokenized
-                .withColumn( "nb_Words", callUDF( "wordsCount", col( "Words" ) ) ) );
+        Dataset< Row > c = regexTokenized
+                .withColumn( "nb_Words", callUDF( "wordsCount", col( "Words" ) ) );
+
+        return c;
+    }
+
+    public double getMedianNumber(Dataset <Row > dataset, String colName){
+        Column col =  dataset.col(colName);
+        dataset.describe(colName).show();
+        return 0.2;
     }
 
 
@@ -80,7 +109,7 @@ public class DataMetrics
             BreakIterator bi = BreakIterator.getSentenceInstance( Locale.FRENCH );
             bi.setText( text );
             int start = 0;
-            int end;
+            int end;// = 0;
             while ( ( end = bi.next() ) != BreakIterator.DONE ) {
                 count.add( text.substring( start, end ) );
                 start = end;
@@ -100,23 +129,22 @@ public class DataMetrics
     public Dataset< Row > numberOfSentences( Dataset< Row > dataset, String colName )
     {
         spark.udf().register( "nbOfSentences", ( String s ) -> sentencesCount( s ), DataTypes.IntegerType );
-        return dataset
-                .withColumn( "nb_sentences",
-                        callUDF( "nbOfSentences", col( colName ) ) );
+        Dataset< Row > c = dataset
+                .withColumn( "nb_sentences", callUDF( "nbOfSentences", col( colName ) ) );
+        return c;
     }
 
 
-//    public void wordFrequency()
-//    {
-//
-//    }
+    public void wordFrequency()
+    {
+
+    }
 
 
-//    public void setSc( JavaSparkContext sc )
-//    {
-//        this.sc = sc;
-//        //this.sqlContext = new SQLContext(sc);
-//    }
+    public void setSc( JavaSparkContext sc )
+    {
+        this.sc = sc;
+    }
 
     public void setSpark( SparkSession spark )
     {
@@ -126,7 +154,16 @@ public class DataMetrics
 
     public static void main( String[] args )
     {
-
+        SparkConf conf = new SparkConf();
+        conf.setMaster( "local[*]" );
+        conf.setAppName( "My app" );
+        JavaSparkContext sc = new JavaSparkContext( conf );
+        SparkSession spark = SparkSession
+                .builder()
+                .appName( "DatasetCreation" )
+                .config( sc.getConf() )
+                .getOrCreate();
+        sc.setLogLevel("WARN");
 
         List< Row > data = Arrays.asList(
                 RowFactory.create(
@@ -142,7 +179,17 @@ public class DataMetrics
                                 "Elle s'en est punie, et fuyant mon courroux,\n" +
                                 "A cherché dans les flots un supplice trop doux.\n" +
                                 "Le fer aurait déjà tranché ma destinée ;\n" +
-                                "Mais je laissais gémir la vertu soupçonnée." ),
+                                "Mais je laissais gémir la vertu soupçonnée.\n" +
+                                "J'ai voulu, devant vous exposant mes remords,\n" +
+                                "Par un chemin plus lent descendre chez les morts.\n" +
+                                "J'ai pris, j'ai fait couler dans mes brûlantes veines\n" +
+                                "Un poison que Médée apporta dans Athènes.\n" +
+                                "Déjà jusqu'à mon coeur le venin parvenu\n" +
+                                "Dans ce coeur expirant jette un froid inconnu ;\n" +
+                                "Déjà je ne vois plus qu'à travers un nuage\n" +
+                                "Et le ciel, et l'époux que ma présence outrage ;\n" +
+                                "Et la mort, à mes yeux dérobant la clarté,\n" +
+                                "Rend au jour, qu'ils souillaient, toute sa pureté.", "moliere" ),
                 RowFactory.create( "I wish Java could use case classes", "racine" ),
                 RowFactory.create( "Logistic,regression,models,are,neat", "moliere" )
         );
@@ -152,29 +199,29 @@ public class DataMetrics
                 new StructField( "Author", DataTypes.StringType, false, Metadata.empty() )
         } );
 
-
-        SparkConf conf = new SparkConf();
-        conf.setMaster( "local[*]" );
-        conf.setAppName( "My app" );
-        JavaSparkContext sc = new JavaSparkContext( conf );
-        SparkSession spark = SparkSession
-                .builder()
-                .appName( "DatasetCreation" )
-                .config( sc.getConf() )
-                .getOrCreate();
         Dataset< Row > sentenceDataFrame = spark.createDataFrame( data, schema );
 
+
         DataMetrics dm = new DataMetrics();
+        dm.setSc( sc );
         dm.setSpark( spark );
         Dataset< Row > s = dm.numberOfSentences( sentenceDataFrame, "Text" );
         s.show();
         Dataset< Row > v = dm.numberOfwords( s, "Text" );
         v.show();
+
+        System.out.println( "nb of classes : " + dm.classCount( v, "Author" ) );
+        System.out.println( "nb of data for classes moliere : "+ dm.samplesClassCount( v, "Author", "moliere" ));
+        System.out.println( "nb of data for classes racine : "+ dm.samplesClassCount( v, "Author", "racine" ));
+        System.out.println(" median : " + dm.getMedianNumber( v, "nb_Words" ));
+        v.describe( "Author" ).show();
+        DataFrameStatFunctions dataFrameStatFunctions = new DataFrameStatFunctions( v );
+        //dataFrameStatFunctions.freqItems( col("Words", "Author" )
     }
 }
 
 
-//TODO Number of samples per class
+
 //TODO Number of words per sample:
 //TODO Distribution of sample length: Distribution showing the number of words per sample in the dataset.
 //TODO Frequency distribution of words: Distribution showing the frequency (number of occurrences) of each word in the dataset.
