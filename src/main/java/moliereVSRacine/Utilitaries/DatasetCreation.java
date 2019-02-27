@@ -67,4 +67,5 @@ public class DatasetCreation {
                 new AbuCnamFileParser("C:\\Users\\ctreb\\IdeaProjects\\MoliereVersusRacine\\src\\main\\resources\\avare.txt"), sc,
                 sparkSession);
     }
+    //regexTokenized.withColumn( "SplitWords", concat_ws( " ",col("SplitWords" ) ));
 }
