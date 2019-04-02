@@ -164,10 +164,13 @@ public class DataMetrics implements Serializable
      */
     public Dataset< Row > setMetric( Dataset< Row > dataset )
     {
+        dataset.show();
         dataset = this.numberOfWords( dataset );// new columns with number of words and tokens
         dataset = this.numberOfSentences( dataset ); // new column with number of sentences
         dataset = dataset.withColumn( "words_per_sentences", col( "nb_words" ).divide( col( "nb_sentences" ) ) );
-        dataset.describe("nb_words", "nb_sentences", "words_per_sentences"). show();
+        dataset.show();
+        Dataset< Row > z = dataset.persist().describe("nb_words", "nb_sentences", "words_per_sentences");
+        z.show();
         Dataset< Row > racineDF = dataset.filter( col( "author" ).equalTo( "racinej" ) );
         racineDF.describe( "nb_words", "nb_sentences","words_per_sentences" ).show();
         Dataset< Row > moliereDF = dataset.filter( col( "author" ).equalTo( "moliere" ) );
@@ -181,12 +184,12 @@ public class DataMetrics implements Serializable
         numberOfWordsClasse1 = l.intValue(); //moliere
         IntDict d = wordsFrequency( wordsFrequency3( dataset ) );
         //d.print();
-        visualisation( d, ( numberOfWordsClasse0 + numberOfWordsClasse1 ) );
+        //visualisation( d, ( numberOfWordsClasse0 + numberOfWordsClasse1 ) );
         IntDict m = wordsFrequency( wordsFrequency3( moliereDF ) );
 
-        visualisation( m, numberOfWordsClasse1 );
+        //visualisation( m, numberOfWordsClasse1 );
         IntDict r = wordsFrequency( wordsFrequency3( racineDF ) );
-        visualisation( r, numberOfWordsClasse0 );
+        //visualisation( r, numberOfWordsClasse0 );
         stopWords = setStopWords( m, r );
         return dataset;
     }

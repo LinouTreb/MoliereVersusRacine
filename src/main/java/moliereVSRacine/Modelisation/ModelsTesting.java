@@ -26,7 +26,7 @@ public class ModelsTesting
      */
     public ModelsTesting( Dataset< Row > dataset )
     {
-        Dataset< Row >[] datasets = dataset.randomSplit( new double[]{ 0.7, 0.3 } );
+        Dataset< Row >[] datasets = dataset.randomSplit( new double[]{ 0.7, 0.3 } , 50);
         this.training = datasets[ 0 ].persist(); // the training data
         this.test = datasets[ 1 ].persist(); //the test data
         launchModels();
@@ -159,6 +159,8 @@ public class ModelsTesting
         int [] settings  = new int[]{100,10};
         FeatureExtraction featureExtraction = new FeatureExtraction( );
         Dataset< Row > data = featureExtraction.dataPrep( regexTokenized, dataMetrics.getStopWords() );
+        data.show();
+        System.out.println("*******************************");
         featureExtraction.set( settings,  data);
         int i = 1;
         for(Dataset <Row> d : featureExtraction.getFeatureDatasets()){

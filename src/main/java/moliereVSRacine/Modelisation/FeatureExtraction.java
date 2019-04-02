@@ -4,7 +4,9 @@ import org.apache.spark.ml.feature.*;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 
-public class FeatureExtraction
+import java.io.Serializable;
+
+public class FeatureExtraction implements Serializable
 {
 
     private  Dataset [] featureDatasets ;
@@ -62,13 +64,14 @@ public class FeatureExtraction
     }
     public Dataset<Row> setWord2Vec(Dataset<Row> dataset, int vectorSize )
     {
+        dataset.show();
         // Learn a mapping from words to Vectors.
         Word2Vec word2Vec = new Word2Vec()
-                .setInputCol("words")
+                .setInputCol("filtered")
                 .setOutputCol("words2vec")
                 .setVectorSize(vectorSize)
                 .setMinCount(0);
-        Word2VecModel model = word2Vec.fit(dataset);
+        Word2VecModel model = word2Vec.fit(dataset.persist());
         Dataset<Row> result = model.transform(dataset);
 
         /* Assembles several features in one vector*/

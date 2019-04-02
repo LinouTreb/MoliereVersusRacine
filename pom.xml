@@ -7,7 +7,7 @@
         <scala.version>2.12.1</scala.version>
 
         <!-- Library Versions -->
-        <spark.version>2.4.0</spark.version>
+        <spark.version>2.2.0</spark.version>
 
     </properties>
     <groupId>MoliereVersusRacine_RCP216</groupId>
@@ -31,14 +31,14 @@
 
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-mllib-local_2.12</artifactId>
-            <version>2.4.0</version>
+            <artifactId>spark-mllib-local_2.11</artifactId>
+            <version>2.2.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.spark</groupId>
-            <artifactId>spark-mllib_2.12</artifactId>
-            <version>2.4.0</version>
+            <artifactId>spark-mllib_2.11</artifactId>
+            <version>2.2.0</version>
         </dependency>
 
 
@@ -64,17 +64,17 @@
         <!--</dependency>-->
 
         <!-- https://mvnrepository.com/artifact/org.tartarus/snowball -->
-        <dependency>
-            <groupId>org.tartarus</groupId>
-            <artifactId>snowball</artifactId>
-            <version>1.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.tartarus</groupId>-->
+<!--            <artifactId>snowball</artifactId>-->
+<!--            <version>1.0</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-snowball</artifactId>
-            <version>3.0.3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.lucene</groupId>-->
+<!--            <artifactId>lucene-snowball</artifactId>-->
+<!--            <version>3.0.3</version>-->
+<!--        </dependency>-->
 
 
         <!-- https://mvnrepository.com/artifact/master/spark-stemming -->
