@@ -24,9 +24,9 @@ public class ModelsTesting
      *
      * @param dataset the {@link Dataset} containing the features
      */
-    public ModelsTesting( Dataset< Row > dataset )
+    private ModelsTesting(Dataset<Row> dataset)
     {
-        Dataset< Row >[] datasets = dataset.randomSplit( new double[]{ 0.7, 0.3 } , 50);
+        Dataset< Row >[] datasets = dataset.randomSplit( new double[]{ 0.7, 0.3 } , 100);
         this.training = datasets[ 0 ].persist(); // the training data
         this.test = datasets[ 1 ].persist(); //the test data
         launchModels();
@@ -48,9 +48,6 @@ public class ModelsTesting
 
         /* Random Forest */
         launchRandomForest();
-
-        /* Naive Bayes */
-        //launchNaiveBayes();
     }
 
     /**
@@ -64,10 +61,8 @@ public class ModelsTesting
                 .setRegParam( 0.3 )
                 .setElasticNetParam( 0.8 );
         LogisticRegressionModel lrModel = lr.fit( training.persist() );
-        lrModel.summary();
         Dataset< Row > predictions = lrModel.transform( this.test ).persist();
         evaluate( predictions );
-
     }
 
 
@@ -97,7 +92,6 @@ public class ModelsTesting
 
         // Fit the model
         LinearSVCModel lsvcModel = lsvc.fit( training );
-
         Dataset< Row > predictions = lsvcModel.transform( test.persist() );
         evaluate( predictions );
     }
@@ -110,10 +104,11 @@ public class ModelsTesting
                 .setFeaturesCol("features");
 
         RandomForestClassificationModel rfModel = rf.fit(this.training);
+        System.out.println(rfModel.explainParams());
         Dataset< Row > predictions = rfModel.transform( this.test );
+        predictions.show();
         evaluate( predictions );
     }
-
 
     /**
      *
@@ -153,19 +148,20 @@ public class ModelsTesting
         spark.udf().register( "nbOfSentences", ( String s ) -> sentencesCount( s ), DataTypes.IntegerType );
 
         //adds new columns with sentences' number and words count
-        Dataset< Row > regexTokenized = dataMetrics.setMetric( dataset );
-        //regexTokenized.show();
+        Dataset< Row > regexTokenized = dataMetrics.setMetric2( dataset );
 
-        int [] settings  = new int[]{100,10};
+        int [] settings  = new int[]{7200,100};
         FeatureExtraction featureExtraction = new FeatureExtraction( );
         Dataset< Row > data = featureExtraction.dataPrep( regexTokenized, dataMetrics.getStopWords() );
         data.show();
-        System.out.println("*******************************");
+        int vocab = (int) dataMetrics.wordsFrequency3(data, "filtered").count();
         featureExtraction.set( settings,  data);
+        System.out.println("vocab size = " + vocab);
+        data.show();
         int i = 1;
-        for(Dataset <Row> d : featureExtraction.getFeatureDatasets()){
+        for(Dataset  d : featureExtraction.getFeatureDatasets()){
             System.out.println("Test Feature extraction "+ i);
-            ModelsTesting m = new ModelsTesting( d .cache());
+            new ModelsTesting( d);
             i++;
         }
     }

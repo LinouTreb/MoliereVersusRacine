@@ -6,7 +6,7 @@ import org.apache.spark.sql.Row;
 
 import java.io.Serializable;
 
-public class FeatureExtraction implements Serializable
+class FeatureExtraction implements Serializable
 {
 
     private  Dataset [] featureDatasets ;
@@ -16,26 +16,27 @@ public class FeatureExtraction implements Serializable
      * @param dataset - the dataset
      * @param stopWords - the stop words list
      */
-    public Dataset<Row>  dataPrep(Dataset<Row> dataset,  String [] stopWords ){
-        featureDatasets = new Dataset [2];
+    Dataset<Row>  dataPrep(Dataset<Row> dataset, String[] stopWords){
         StringIndexer stringIndexer = new StringIndexer().
                 setInputCol( "author" ).
                 setOutputCol( "label" );
         StringIndexerModel stringIndexerModel = stringIndexer.fit(dataset);
         Dataset< Row > indexed =  stringIndexerModel.transform( dataset );
+
         StopWordsRemover remover = new StopWordsRemover()
                 .setInputCol("words")
                 .setOutputCol("filtered")
                 .setStopWords( stopWords );
+       return remover.transform(indexed);
 
-        return  remover.transform(indexed);
-    }
+}
 
     /**
      *
      * @param settings - the numbers of features for TFIDF and the vetor size for Words2Vec
      */
-    public void set(int [] settings, Dataset<Row> dataset){
+    void set(int[] settings, Dataset<Row> dataset){
+        featureDatasets = new Dataset [2];
         featureDatasets[0] = setTfIdfFeatures( dataset, settings[0] );
         featureDatasets[1] = setWord2Vec(dataset,  settings[1] );
     }
@@ -62,7 +63,7 @@ public class FeatureExtraction implements Serializable
                 .setOutputCol("features");
         return assembler.transform( tfIdfData );
     }
-    public Dataset<Row> setWord2Vec(Dataset<Row> dataset, int vectorSize )
+    private Dataset<Row> setWord2Vec(Dataset<Row> dataset, int vectorSize)
     {
         dataset.show();
         // Learn a mapping from words to Vectors.
@@ -76,13 +77,13 @@ public class FeatureExtraction implements Serializable
 
         /* Assembles several features in one vector*/
         VectorAssembler assembler = new VectorAssembler()
-                .setInputCols(new String []{"words2vec", "words_per_sentences"})
+                .setInputCols(new String []{word2Vec.getOutputCol(), "words_per_sentences"})
                 .setOutputCol("features");
         return assembler.transform( result );
 
     }
 
-    public Dataset [] getFeatureDatasets()
+    Dataset [] getFeatureDatasets()
     {
         return featureDatasets;
     }

@@ -80,7 +80,7 @@ public class DataMetrics implements Serializable
      * @param dataset, the dataset to process
      * @return the dataset plus a column containing the number of words in the input column.
      */
-    private Dataset< Row > numberOfWords( Dataset< Row > dataset )
+    private Dataset< Row > numberOfWords(Dataset<Row> dataset)
     {
 
         RegexTokenizer regexTokenizer = new RegexTokenizer()
@@ -98,11 +98,11 @@ public class DataMetrics implements Serializable
      * @param dataset - the dataset
      * @return a {@link JavaPairRDD} containing words and its occurences
      */
-    private JavaPairRDD< String, Integer > wordsFrequency3( Dataset< Row > dataset )
+    JavaPairRDD< String, Integer > wordsFrequency3(Dataset<Row> dataset, String colName)
     {
         /*Unwraps the "words" column*/
         Dataset< Row > concatAllWords = dataset
-                .withColumn( "allTheWords", concat_ws( " ", col( "words" ) ) );
+                .withColumn( "allTheWords", concat_ws( " ", col( colName ) ) );
         /*Converts the dataset into javaRDD*/
         JavaRDD< Row > javaRDD = concatAllWords.persist().select( "allTheWords" ).toJavaRDD();
         /* Counts the all the words occurrences */
@@ -149,12 +149,25 @@ public class DataMetrics implements Serializable
      * @param dataset, the dataframe containing all the data
      * @return the dataset plus the number of sentences
      */
-    private Dataset< Row > numberOfSentences( Dataset< Row > dataset )
+    private Dataset< Row > numberOfSentences(Dataset<Row> dataset)
     {
         return dataset
                 .withColumn( "nb_sentences", callUDF( "nbOfSentences", col( "text" ) ) );
     }
 
+
+//    public void stemmatization(Dataset<Row> dataset){
+//        FrenchStemmer frenchStemmer = new FrenchStemmer();
+//        dataset = dataset.withColumn("stems", frenchStemmer.stem() )
+//    }
+
+
+    public Dataset< Row > setMetric1 ( Dataset< Row > dataset ){
+        dataset = this.numberOfWords( dataset );// new columns with number of words and tokens
+        dataset = this.numberOfSentences( dataset ); // new column with number of sentences
+        dataset = dataset.withColumn( "words_per_sentences", col( "nb_words" ).divide( col( "nb_sentences" ) ) );
+        return dataset;
+    }
 
     /**
      * Function to add two columns : first the number of words per sample and the numbers of sentences per sample
@@ -162,12 +175,10 @@ public class DataMetrics implements Serializable
      * @param dataset the dataset
      * @return the upgraded dataset
      */
-    public Dataset< Row > setMetric( Dataset< Row > dataset )
+    Dataset< Row > setMetric2(Dataset<Row> dataset)
     {
-        dataset.show();
-        dataset = this.numberOfWords( dataset );// new columns with number of words and tokens
-        dataset = this.numberOfSentences( dataset ); // new column with number of sentences
-        dataset = dataset.withColumn( "words_per_sentences", col( "nb_words" ).divide( col( "nb_sentences" ) ) );
+        dataset = setMetric1(dataset);
+
         dataset.show();
         Dataset< Row > z = dataset.persist().describe("nb_words", "nb_sentences", "words_per_sentences");
         z.show();
@@ -180,17 +191,24 @@ public class DataMetrics implements Serializable
         //sum.show();
         Long l = ( Long ) sum.select( "sum(nb_words)" ).collectAsList().get( 0 ).get( 0 );
         numberOfWordsClasse0 = l.intValue(); //racine
+
         l = ( Long ) sum.select( "sum(nb_words)" ).collectAsList().get( 1 ).get( 0 );
         numberOfWordsClasse1 = l.intValue(); //moliere
-        IntDict d = wordsFrequency( wordsFrequency3( dataset ) );
+        System.out.println("nb words corpus = " + (numberOfWordsClasse0 + numberOfWordsClasse1));
+        System.out.println("nb words racine = " + numberOfWordsClasse0);
+        System.out.println("nb words moliere = " + numberOfWordsClasse1);
+
+
+        IntDict d = wordsFrequency( wordsFrequency3( dataset, "words" ) );
+        System.out.println("vocabulary size : " + d.size());
         //d.print();
         //visualisation( d, ( numberOfWordsClasse0 + numberOfWordsClasse1 ) );
-        IntDict m = wordsFrequency( wordsFrequency3( moliereDF ) );
+        IntDict m = wordsFrequency( wordsFrequency3( moliereDF , "words") );
 
         //visualisation( m, numberOfWordsClasse1 );
-        IntDict r = wordsFrequency( wordsFrequency3( racineDF ) );
+        IntDict r = wordsFrequency( wordsFrequency3( racineDF , "words") );
         //visualisation( r, numberOfWordsClasse0 );
-        stopWords = setStopWords( m, r );
+        stopWords = setStopWords( m, r);
         return dataset;
     }
 
@@ -204,7 +222,7 @@ public class DataMetrics implements Serializable
     {
         //remove most  frequent words
         ArrayList< String > sw = new ArrayList<>();
-        for ( int i = 0; i <= 49; i++ ) {
+        for ( int i = 0; i <= 50; i++ ) {
             String s = moliere.keyArray()[ i ];
             if(racine.hasKey( s )) {
                 double m = ( double ) moliere.get( s ) * 1000.0 / numberOfWordsClasse1;
@@ -219,9 +237,10 @@ public class DataMetrics implements Serializable
         return s;
     }
 
+
+
     private void visualisation( IntDict intDict, int total )
     {
-
         setIntDict( intDict );
         setTotal( total );
         Visualization mySketch = new Visualization( this );
@@ -245,7 +264,7 @@ public class DataMetrics implements Serializable
 
     }
 
-    public String[] getStopWords()
+    String[] getStopWords()
     {
         return stopWords;
     }

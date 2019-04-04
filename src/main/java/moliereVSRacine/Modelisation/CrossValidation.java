@@ -3,19 +3,15 @@ package moliereVSRacine.Modelisation;
 import moliereVSRacine.dataset.DatasetCreation;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.ml.Pipeline;
-import org.apache.spark.ml.PipelineModel;
-import org.apache.spark.ml.PipelineStage;
-import org.apache.spark.ml.classification.DecisionTreeClassificationModel;
-import org.apache.spark.ml.classification.DecisionTreeClassifier;
+import org.apache.spark.ml.*;
 import org.apache.spark.ml.classification.LogisticRegression;
 import org.apache.spark.ml.evaluation.BinaryClassificationEvaluator;
 import org.apache.spark.ml.feature.*;
+import org.apache.spark.ml.param.Param;
 import org.apache.spark.ml.param.ParamMap;
 import org.apache.spark.ml.tuning.CrossValidator;
 import org.apache.spark.ml.tuning.CrossValidatorModel;
 import org.apache.spark.ml.tuning.ParamGridBuilder;
-import org.apache.spark.ml.util.MLWriter;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
@@ -24,71 +20,100 @@ import scala.collection.mutable.WrappedArray;
 
 import java.io.IOException;
 import java.io.Serializable;
-import java.util.Arrays;
 
 import static moliereVSRacine.Modelisation.DataMetrics.sentencesCount;
 import static moliereVSRacine.Modelisation.DataMetrics.wordsCount;
 
 public class CrossValidation implements Serializable, scala.Serializable {
-    private Dataset< Row > training;
-    private Dataset< Row > test;
 
 
-    public void validation( Dataset< Row > dataset)
+
+    private void featureExtraction(Dataset<Row> dataset, String[] stopWords)
     {
-        int vectorSize = 20;
 
-        Word2Vec word2Vec = new Word2Vec()
+
+        StringIndexer stringIndexer = new StringIndexer().
+                setInputCol( "author" ).
+                setOutputCol( "label" );
+
+        StopWordsRemover remover = new StopWordsRemover()
+                .setInputCol("words")
+                .setOutputCol("filtered")
+                .setStopWords( stopWords );
+
+        HashingTF hashingTF = new HashingTF()
+                .setNumFeatures(10000)
                 .setInputCol("filtered")
-                .setOutputCol("words2vec")
-                .setVectorSize(vectorSize)
-                .setMinCount(0);
-        Word2VecModel model = word2Vec.fit(dataset.persist());
-        Dataset<Row> w2v = model.transform(dataset);
+                .setOutputCol("rawFeatures");
 
-        /* Assembles several features in one vector*/
+        IDF idf = new IDF().
+                setInputCol(hashingTF.getOutputCol()).
+                setOutputCol("TFfeatures");
+
+        String [] colNames = {idf.getOutputCol(), "words_per_sentences"};
         VectorAssembler assembler = new VectorAssembler()
-                .setInputCols(new String []{"words2vec", "words_per_sentences"})
+                .setInputCols(colNames)
                 .setOutputCol("features");
-        Dataset<Row> assembled =  assembler.transform( w2v ).persist();
-
-        Dataset< Row >[] datasets = assembled.randomSplit( new double[]{ 0.7, 0.3 } , 50);
-        Dataset< Row > training = datasets[ 0 ].persist(); // the training data
-        Dataset< Row > test = datasets[ 1 ].persist(); //the test data
-        DecisionTreeClassifier dt = new DecisionTreeClassifier()
-                .setLabelCol( "label" )
-                .setFeaturesCol( "features" );
-        DecisionTreeClassificationModel dtModel = dt.fit( training );
-
-        MLWriter mlWriter = dtModel.write();
-        //Dataset< Row > predictions = dtModel.transform( test );
 
 
-        PipelineStage [] pipelineStage = { word2Vec,assembler, dt};
-        Pipeline pipeline = new Pipeline()
-                .setStages( pipelineStage );
+//        Word2Vec word2Vec = new Word2Vec()
+//                .setInputCol("filtered")
+//                .setOutputCol("words2vec")
+//                .setVectorSize(100)
+//                .setMinCount(2);
 
+//        VectorAssembler assembler = new VectorAssembler()
+//                .setInputCols(new String []{"words2vec", "words_per_sentences"})
+//                .setOutputCol("features");
 
-        PipelineModel pipelineModel = pipeline.fit(dataset.cache());
+        LogisticRegression lr = new LogisticRegression()
+                .setMaxIter( 10 )
+                .setRegParam( 0.3 )
+                .setElasticNetParam( 0.8 );
 
-        try {
-            mlWriter.overwrite().save(CrossValidation.class.getClassLoader().getResource("pipeline2.txt").getPath());
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("oulalal");
-        }
+        //Pipeline pipeline = new Pipeline().setStages( new PipelineStage[]{  stringIndexer, remover, word2Vec,assembler, lr} );
+
+        Pipeline pipeline = new Pipeline().setStages( new PipelineStage[]{  stringIndexer, remover,hashingTF, idf ,assembler, lr} );
+
+//        ParamMap[] paramGrid = new ParamGridBuilder()
+//                .addGrid( word2Vec.vectorSize(), new int[]{ 100, 200, 300 } )
+//                .addGrid(lr.regParam(), new double[] {0.001, 0.01, 0.1})
+//                .build();
 
         ParamMap[] paramGrid = new ParamGridBuilder()
-                .addGrid( word2Vec.vectorSize(), new int[]{ 10, 30, 40 } )
+                .addGrid( hashingTF.numFeatures(), new int[]{ 5000, 10000, 15000 } )
+                .addGrid(lr.regParam(), new double[] {0.001, 0.01, 0.1})
                 .build();
 
-        //PipelineModel pipelineModel = pipeline.fit(dataset.cache());
+        CrossValidator cv = new CrossValidator()
+                .setEstimator(  pipeline )
+                .setEvaluator( new BinaryClassificationEvaluator() )
+                .setEstimatorParamMaps( paramGrid )
+                .setNumFolds( 2 )  // Use 3+ in practice
+
+                ;  // Evaluate up to 2 parameter settings in parallel
+        CrossValidatorModel cvModel = cv.fit(dataset );
 
 
+        Pipeline bestModel = (Pipeline) cvModel.bestModel().parent();
+        Param vs =  bestModel.getStages()[2].getParam("numFeatures");
+        System.out.println("value of numfeatures : " +bestModel.getStages()[2].get(vs));
+        Param rp = bestModel.getStages()[5].getParam("regParam");
+        System.out.println("value of regParam : " +bestModel.getStages()[5].get(rp));
+
+//        Param vs =  bestModel.getStages()[2].getParam("vectorSize");
+//        System.out.println("value of vectorSize : " +bestModel.getStages()[2].get(vs));
+//        Param rp = bestModel.getStages()[4].getParam("regParam");
+//        System.out.println("value of regParam : " +bestModel.getStages()[4].get(rp));
 
 
+        try {
+            ( cvModel)
+                    .save("C:\\Users\\Dani-Linou\\IdeaProjects\\MoliereVersusRacine\\src\\main\\resources\\model4");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
-
 
 
     public static void main (String [] args){
@@ -105,10 +130,6 @@ public class CrossValidation implements Serializable, scala.Serializable {
                 .getOrCreate()
                 ;
 
-
-
-
-
         /* Creates the dataset from the text files contained in corpus folder*/
         DatasetCreation dc = new DatasetCreation( sc, spark );
         Dataset< Row > dataset = dc.getDataset().cache();
@@ -120,64 +141,16 @@ public class CrossValidation implements Serializable, scala.Serializable {
         spark.udf().register( "nbOfSentences", ( String s ) -> sentencesCount( s ), DataTypes.IntegerType );
 
         //adds new columns with sentences' number and words count
-        Dataset< Row > regexTokenized = dataMetrics.setMetric( dataset.persist() );
+        Dataset< Row > regexTokenized = dataMetrics.setMetric2( dataset.persist() );
         //regexTokenized.show();
 
 
-        FeatureExtraction featureExtraction = new FeatureExtraction( );
-        Dataset< Row > data = featureExtraction.dataPrep( regexTokenized.persist(), dataMetrics.getStopWords() ).persist();
-        data.show();
+
 
 
         CrossValidation crossValidation = new CrossValidation();
-        crossValidation.validation(data);
-//        int vectorSize = 20;
-//
-//        Word2Vec word2Vec = new Word2Vec()
-//                .setInputCol( "filtered" )
-//                .setOutputCol( "words2vec" )
-//                .setVectorSize( 20 )
-//                .setMinCount( 0 );
-//        Word2VecModel model = word2Vec.fit(training.persist());
-//        Dataset<Row> result = model.transform(training);
-//
-//        VectorAssembler assembler = new VectorAssembler()
-//                .setInputCols( new String[]{ "words2vec", "words_per_sentences" } )
-//                .setOutputCol( "features" )
-//                ;
-//        DecisionTreeClassifier dt = new DecisionTreeClassifier()
-//                .setLabelCol( "label" )
-//                .setFeaturesCol( "words2vec" );
-//
-//        Pipeline pipeline = new Pipeline()
-//                .setStages( new PipelineStage[]{  word2Vec , dt} );
-//        PipelineModel p = new Pipeline()
-//                .setStages( new PipelineStage[]{  assembler , dt})
-//                .fit(result.cache());
+        crossValidation.featureExtraction(regexTokenized, dataMetrics.getStopWords());
 
-                      // PipelineModel pipelineModel = pipeline.fit(training.cache());
-//        Dataset< Row > predic = pipelineModel.transform(training);
-//        predic.show();
-//        ParamMap[] paramGrid = new ParamGridBuilder()
-//                .addGrid( word2Vec.vectorSize(), new int[]{ 10 } )
-//               // .addGrid(lr.regParam(), new double[] {0.1, 0.01})
-//                .build();
-//
-//        CrossValidator cv = new CrossValidator()
-//                .setEstimator(  pipeline)
-//                .setEvaluator( new BinaryClassificationEvaluator() )
-//                .setEstimatorParamMaps( paramGrid )
-//                .setNumFolds( 1 )  // Use 3+ in practice
-//                .setParallelism( 1 )
-//                ;  // Evaluate up to 2 parameter settings in parallel
-//        CrossValidatorModel cvModel = cv.fit(result.persist() );
-//        Dataset< Row > predictions = cvModel.transform( test );
-//
-//        for ( Row r : predictions.select( "label", "text", "probability", "prediction" ).collectAsList() ) {
-//            System.out.println( "(" + r.get( 0 ) + ", " + r.get( 1 ) + ") --> prob=" + r.get( 2 )
-//                    + ", prediction=" + r.get( 3 ) );
-
-      //  }
 
     }
 

@@ -70,11 +70,12 @@
 <!--            <version>1.0</version>-->
 <!--        </dependency>-->
 
-<!--        <dependency>-->
-<!--            <groupId>org.apache.lucene</groupId>-->
-<!--            <artifactId>lucene-snowball</artifactId>-->
-<!--            <version>3.0.3</version>-->
-<!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-snowball</artifactId>
+            <version>3.0.3</version>
+        </dependency>
 
 
         <!-- https://mvnrepository.com/artifact/master/spark-stemming -->
@@ -83,6 +84,26 @@
             <artifactId>spark-stemming</artifactId>
             <version>0.2.1</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.github.master</groupId>-->
+<!--            <artifactId>spark-stemming_2.10</artifactId>-->
+<!--            <version>0.2.1</version>-->
+<!--        </dependency>-->
+
+
+        <!--        <dependency>-->
+<!--            <groupId>com.github.master</groupId>-->
+<!--            <artifactId>spark-stemming_2.10</artifactId>-->
+<!--            <version>0.2.1</version>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/master/spark-stemming &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>master</groupId>-->
+<!--            <artifactId>spark-stemming</artifactId>-->
+<!--            <version>0.2.1</version>-->
+<!--        </dependency>-->
 
     </dependencies>
 
