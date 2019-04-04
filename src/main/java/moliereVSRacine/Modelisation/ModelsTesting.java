@@ -61,7 +61,8 @@ public class ModelsTesting
                 .setRegParam( 0.3 )
                 .setElasticNetParam( 0.8 );
         LogisticRegressionModel lrModel = lr.fit( training.persist() );
-        Dataset< Row > predictions = lrModel.transform( this.test ).persist();
+        Dataset< Row > predictions = lrModel.transform( this.test );
+        //predictions.show();
         evaluate( predictions );
     }
 
@@ -78,6 +79,7 @@ public class ModelsTesting
         DecisionTreeClassificationModel dtModel = dt.fit( training );
         Dataset< Row > predictions = dtModel.transform( test );
         evaluate( predictions );
+        //predictions.show();
     }
 
     /**
@@ -94,6 +96,7 @@ public class ModelsTesting
         LinearSVCModel lsvcModel = lsvc.fit( training );
         Dataset< Row > predictions = lsvcModel.transform( test.persist() );
         evaluate( predictions );
+        //predictions.show();
     }
 
     private void launchRandomForest(){
@@ -104,10 +107,11 @@ public class ModelsTesting
                 .setFeaturesCol("features");
 
         RandomForestClassificationModel rfModel = rf.fit(this.training);
-        System.out.println(rfModel.explainParams());
+        //System.out.println(rfModel.explainParams());
         Dataset< Row > predictions = rfModel.transform( this.test );
-        predictions.show();
+
         evaluate( predictions );
+        //predictions.show();
     }
 
     /**
@@ -123,6 +127,8 @@ public class ModelsTesting
         double AUC = evaluator.evaluate( dataset.persist() );
         System.out.println( "AUC = " + ( AUC ) );
     }
+
+
 
     public static void main( String [] args ){
         SparkConf conf = new SparkConf();
@@ -150,20 +156,18 @@ public class ModelsTesting
         //adds new columns with sentences' number and words count
         Dataset< Row > regexTokenized = dataMetrics.setMetric2( dataset );
 
-        int [] settings  = new int[]{7200,100};
-        FeatureExtraction featureExtraction = new FeatureExtraction( );
-        Dataset< Row > data = featureExtraction.dataPrep( regexTokenized, dataMetrics.getStopWords() );
+
+        FeatureExtraction featureExtraction = new FeatureExtraction( regexTokenized, dataMetrics.getStopWords() ) ;
+        featureExtraction.dataPrep();
+        Dataset< Row > data =  featureExtraction.getFeatured();
         data.show();
         int vocab = (int) dataMetrics.wordsFrequency3(data, "filtered").count();
-        featureExtraction.set( settings,  data);
-        System.out.println("vocab size = " + vocab);
+        System.out.println("Number of features for HashingTF = " + vocab);
         data.show();
-        int i = 1;
-        for(Dataset  d : featureExtraction.getFeatureDatasets()){
-            System.out.println("Test Feature extraction "+ i);
-            new ModelsTesting( d);
-            i++;
-        }
+        new ModelsTesting(data);
+
+
+
     }
 
 

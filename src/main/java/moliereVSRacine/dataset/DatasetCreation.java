@@ -37,7 +37,7 @@ public class DatasetCreation implements Serializable
 
 
             // Create an JavaRDD
-            JavaRDD< String > stringJavaRDD = sc.parallelize( data );
+            JavaRDD< String > stringJavaRDD = sc.parallelize( data,20 );
 
 
             // The schema is encoded in a string

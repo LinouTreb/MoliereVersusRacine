@@ -34,7 +34,7 @@ public class MainClass extends JFrame implements ActionListener {
     private JLabel label;
     private SparkSession spark;
 
-    public MainClass( final SparkSession spark) {
+     MainClass( final SparkSession spark) {
         this.spark = spark;
         setSize(600, 300);
         setBackground(Color.cyan);
@@ -98,7 +98,7 @@ public class MainClass extends JFrame implements ActionListener {
                 DataMetrics dataMetrics = new DataMetrics();
                 sentenceData = dataMetrics.setMetric1(sentenceData);
                 CrossValidatorModel pipelineModel = CrossValidatorModel
-                        .load("C:\\Users\\Dani-Linou\\IdeaProjects\\MoliereVersusRacine\\src\\main\\resources\\model4");
+                        .load("C:\\Users\\Dani-Linou\\IdeaProjects\\MoliereVersusRacine\\src\\main\\resources\\model");
                 Dataset<Row> r = pipelineModel.transform(sentenceData);
                 r.select("prediction", "probability").show();
                 System.out.println(r.select("prediction").toJavaRDD().collect().get(0).get(0).getClass());
@@ -109,7 +109,7 @@ public class MainClass extends JFrame implements ActionListener {
                     this.label.setText("Ceci est un texte de Molière ");
                 }
             } else {
-                this.label.setText("y'a rien la dedans");
+                this.label.setText("C'est vide !");
             }
         } else if (e.getSource() == this.clear) {
             this.text.setText("");
